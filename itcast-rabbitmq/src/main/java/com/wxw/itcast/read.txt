@@ -1,0 +1,28 @@
+(1) linux查看运行中的端口号： netstat -aptn
+(2) rabbitMQ总结
+    消息队列MQ
+    AMQP：协议 实现方式 任何语言支持5种 rabbit(erlang)
+    JMS:
+   1,交换机
+    （1） Direct类型（直连，一对一形式）
+       解释：
+          a.所有发送到 Direct Exchange 的消息被转发到RouteKey中制定的Queue中;
+          注意：Direct模式可以使用RabbitMQ自带的Exchange:default Exchange,所以不需要将
+          Exchange进行任何绑定（binding）操作，消息传递时，RouteKey必须完全匹配才会被队列
+          接收，否则该消息会被抛弃；
+
+      （2）Topic Exchange
+         解释：
+           a.所有发送到Topic Exchange 的消息被转发到所有关心RouteKey中指定Topic的Queue中
+           b.Exchange将RouteKey和某Topic进行模糊匹配，此时队列需要绑定一个topic
+           c.模糊匹配规则
+            符号：“#”匹配一个或多个词
+                  “*”匹配不多不少一个词
+             例如：“log.#" 能够匹配到”log.info.oa"
+                    "log.*" 只会匹配到"log.err"
+
+       (3) Fanout Exchange
+         解析：
+           a.不处理路由键，只需要将队列简单的绑定到交换机shang
+           b. 发送到交换机上的消息都会被转发到与该交换机绑定的所有队列上
+           c. fanout 交换机转发消息时最快的
