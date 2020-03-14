@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/config/RabbitMqConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/config/Swagger2Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/tools/CommentGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/tools/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/resources/generator.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/resources/mbg/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-rabbitmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-rabbitmq/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/boot/RabbitmqApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/RabbitmqApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-rabbitmq/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-rabbitmq/src/test/java/com/wxw/boot/RabbitmqApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-rabbitmq/src/test/java/com/wxw/boot/RabbitmqApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/boot-rabbitmq/target/" />
     <ignored path="$PROJECT_DIR$/itcast-rabbitmq/target/" />
@@ -78,6 +58,10 @@
         <option value="$PROJECT_DIR$/boot-rabbitmq/src/test/java/com/wxw/boot/RabbitmqApplicationTests.java" />
         <option value="$PROJECT_DIR$/boot-rabbitmq/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/config/MyBatisConfig.java" />
+        <option value="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/api/CommonPage.java" />
+        <option value="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/api/CommonResult.java" />
+        <option value="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/api/IErrorCode.java" />
+        <option value="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/api/ResultCode.java" />
       </list>
     </option>
   </component>
@@ -126,41 +110,6 @@
               <item name="Itcast-spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="Itcast-spring" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Itcast-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Itcast-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="boot-rabbitmq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Itcast-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Itcast-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="boot-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Itcast-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Itcast-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="boot-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Itcast-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Itcast-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="boot-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Itcast-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Itcast-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="boot-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wxw" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -194,6 +143,7 @@
       <recent name="com.wxw" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Study_GO\Study_Project\Itcast-spring\boot-rabbitmq\src\main\java\com\wxw\common\api" />
       <recent name="F:\Study_GO\Study_Project\Itcast-spring\boot-rabbitmq\src\main\resources" />
     </key>
   </component>
@@ -375,7 +325,7 @@
       <workItem from="1583217321013" duration="677000" />
       <workItem from="1583594150383" duration="17000" />
       <workItem from="1584159593068" duration="5298000" />
-      <workItem from="1584202258061" duration="5318000" />
+      <workItem from="1584202258061" duration="5585000" />
     </task>
     <task id="LOCAL-00001" summary="添加示例">
       <created>1584160240398</created>
@@ -384,7 +334,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584160240398</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Springboot整合swagger2">
+      <created>1584207699289</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584207699289</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Springboot整合swagger2">
+      <created>1584207793794</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584207793794</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -399,13 +363,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16716000" />
+    <option name="totallyTimeSpent" value="16983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29825738" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29825738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -415,7 +379,7 @@
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5231214" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17919075" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -426,7 +390,7 @@
       <window_info anchor="bottom" id="Sequence" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32918397" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.32947975" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32658958" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -443,9 +407,36 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加示例" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加示例" />
+    <MESSAGE value="Springboot整合swagger2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Springboot整合swagger2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.1.2/amqp-client-5.1.2.jar!/com/rabbitmq/client/impl/recovery/AutorecoveringChannel.class">
@@ -715,6 +706,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
           <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/api/CommonPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/api/CommonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1707">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/api/IErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/api/ResultCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
