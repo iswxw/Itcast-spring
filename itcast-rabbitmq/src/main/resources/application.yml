@@ -1,6 +1,6 @@
 spring:
   rabbitmq:
-    host: 47.101.141.168
+    host: localhost
     username: wxw
     password: wxw
     virtual-host: /wxw

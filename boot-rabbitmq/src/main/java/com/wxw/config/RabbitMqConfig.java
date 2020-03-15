@@ -1,4 +1,3 @@
-/*
 package com.wxw.config;
 
 import com.wxw.common.QueueEnum;
@@ -6,21 +5,16 @@ import org.springframework.amqp.core.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-*/
-/**
- * @Author: wxw
- * @create: 2020-03-14-15:23
- * 消息队列配置
- *//*
 
-//@Configuration
+/**
+ * 消息队列配置
+ */
+@Configuration
 public class RabbitMqConfig {
 
-    */
-/**
+    /**
      * 订单消息实际消费队列所绑定的交换机
-     *//*
-
+     */
     @Bean
     DirectExchange orderDirect() {
         return (DirectExchange) ExchangeBuilder
@@ -29,11 +23,9 @@ public class RabbitMqConfig {
                 .build();
     }
 
-    */
-/**
+    /**
      * 订单延迟队列队列所绑定的交换机
-     *//*
-
+     */
     @Bean
     DirectExchange orderTtlDirect() {
         return (DirectExchange) ExchangeBuilder
@@ -41,21 +33,18 @@ public class RabbitMqConfig {
                 .durable(true)
                 .build();
     }
-    */
-/**
-     * 订单实际消费队列
-     *//*
 
+    /**
+     * 订单实际消费队列
+     */
     @Bean
     public Queue orderQueue() {
         return new Queue(QueueEnum.QUEUE_ORDER_CANCEL.getName());
     }
 
-    */
-/**
+    /**
      * 订单延迟队列（死信队列）
-     *//*
-
+     */
     @Bean
     public Queue orderTtlQueue() {
         return QueueBuilder
@@ -65,24 +54,20 @@ public class RabbitMqConfig {
                 .build();
     }
 
-    */
-/**
+    /**
      * 将订单队列绑定到交换机
-     *//*
-
+     */
     @Bean
-    Binding orderBinding(DirectExchange orderDirect, Queue orderQueue){
+    Binding orderBinding(DirectExchange orderDirect,Queue orderQueue){
         return BindingBuilder
                 .bind(orderQueue)
                 .to(orderDirect)
                 .with(QueueEnum.QUEUE_ORDER_CANCEL.getRouteKey());
     }
 
-    */
-/**
+    /**
      * 将订单延迟队列绑定到交换机
-     *//*
-
+     */
     @Bean
     Binding orderTtlBinding(DirectExchange orderTtlDirect,Queue orderTtlQueue){
         return BindingBuilder
@@ -92,4 +77,3 @@ public class RabbitMqConfig {
     }
 
 }
-*/

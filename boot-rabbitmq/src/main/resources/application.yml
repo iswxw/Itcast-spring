@@ -6,6 +6,13 @@ spring:
     url: jdbc:mysql://localhost:3306/springmvc?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     username: root
     password: 123456
+  rabbitmq:
+    host: localhost # rabbitmq的连接地址  localhost
+    port: 5672 # rabbitmq的连接端口号
+    virtual-host: /wxw # rabbitmq的虚拟host
+    username: wxw # rabbitmq的用户名
+    password: wxw # rabbitmq的密码
+    publisher-confirms: true #如果对异步消息需要回调必须设置为true
 
 mybatis:
   mapper-locations:
