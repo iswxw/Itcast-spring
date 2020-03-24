@@ -1,4 +1,4 @@
-package com.wxw.spring;
+package com.wxw.http;
 
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
@@ -10,20 +10,20 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
-public class HttpTests {
+/**
+ * @Author: wxw
+ * @create: 2020-03-24-9:31
+ * 测试httpclient
+ */
+
+public class HttpTest {
 
     CloseableHttpClient httpClient;
 
-    /**
-     * https://blog.csdn.net/iexploration/article/details/82023893
-     */
-
     @BeforeEach
     public void init() {
-        // 相当于打开了一个浏览器
         httpClient = HttpClients.createDefault();
     }
-
 
     //模拟get请求
     @Test
@@ -50,4 +50,5 @@ public class HttpTests {
         String response = this.httpClient.execute(request, new BasicResponseHandler());
         System.out.println(response);
     }
+
 }
