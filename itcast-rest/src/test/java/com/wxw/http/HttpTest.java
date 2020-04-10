@@ -28,7 +28,7 @@ public class HttpTest {
     //模拟get请求
     @Test
     public void testGet() throws IOException {
-        HttpGet request = new HttpGet("http://www.baidu.com/s?wd=java");
+        HttpGet request = new HttpGet("http://www.baidu.com/s?wd=查找二叉树两个节点的最低共同父节点");
         //HttpGet request = new HttpGet("http://www.baidu.com");
         String response = this.httpClient.execute(request, new BasicResponseHandler());
         System.out.println(response);
