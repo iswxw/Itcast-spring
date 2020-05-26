@@ -8,12 +8,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 
-@SpringBootTest
+
 public class jdbcJobTest {
 
-
-    @Test
-    public void testFindAll(){
-
-    }
 }
