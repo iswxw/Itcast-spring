@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>itcast-spring</artifactId>
+        <groupId>com.wxw</groupId>
+        <version>2.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>boot-redis</artifactId>
+
+     <dependencies>
+         <!--boot的启动类-->
+         <dependency>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-starter</artifactId>
+         </dependency>
+         <!--boot结合的redis-->
+         <dependency>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-starter-data-redis</artifactId>
+         </dependency>
+         <!--开启测试包-->
+         <dependency>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-starter-test</artifactId>
+             <scope>test</scope>
+             <exclusions>
+                 <exclusion>
+                     <groupId>org.junit.vintage</groupId>
+                     <artifactId>junit-vintage-engine</artifactId>
+                 </exclusion>
+             </exclusions>
+         </dependency>
+         <!--lombok工具-->
+         <dependency>
+             <groupId>org.projectlombok</groupId>
+             <artifactId>lombok</artifactId>
+             <version>1.18.12</version>
+         </dependency>
+         <!--序列化 工具-->
+         <dependency>
+             <groupId>com.fasterxml.jackson.core</groupId>
+             <artifactId>jackson-databind</artifactId>
+             <version>2.10.2</version>
+         </dependency>
+         <dependency>
+             <groupId>com.alibaba</groupId>
+             <artifactId>fastjson</artifactId>
+             <version>1.2.60</version>
+         </dependency>
+         <!--lang3的工具包-->
+         <dependency>
+             <groupId>org.apache.commons</groupId>
+             <artifactId>commons-lang3</artifactId>
+             <version>3.9</version>
+         </dependency>
+         <!--hu tool 工具包-->
+         <dependency>
+             <groupId>cn.hutool</groupId>
+             <artifactId>hutool-all</artifactId>
+             <version>5.3.5</version>
+         </dependency>
+     </dependencies>
+</project>

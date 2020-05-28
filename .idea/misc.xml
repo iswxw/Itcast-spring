@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/boot-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/itcast-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-redis/pom.xml" />
       </list>
     </option>
   </component>
