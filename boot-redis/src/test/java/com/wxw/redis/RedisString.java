@@ -1,15 +1,14 @@
 package com.wxw.redis;
 
+import com.wxw.domain.Address;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 
 import javax.annotation.Resource;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.time.LocalDate;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -28,6 +27,36 @@ public class RedisString {
 
     @Resource
     private RedisTemplate redisTemplate;
+
+
+    /**
+     * Key的基本操作
+     */
+    @Test
+    public void test0(){
+        this.stringRedisTemplate.opsForValue().set("key1","value1",5,TimeUnit.MINUTES);
+         // 删除key
+        Boolean key1 = this.stringRedisTemplate.delete("key1");
+        System.out.println("key1 = " + key1);
+        // 给已有key 重命名
+        this.stringRedisTemplate.opsForValue().set("key1","value1",5,TimeUnit.MINUTES);
+        this.stringRedisTemplate.rename("key1","key2");
+        // 序列化给定的key
+        this.stringRedisTemplate.opsForValue().set("wxw","Redis是基于内存的，String的Value 可以存512MB");
+        byte[] wxws = this.stringRedisTemplate.dump("wxw");
+        System.out.println("序列化wxws = " + wxws);
+
+        // 检测给定key是否存在
+        Set<String> keys = this.stringRedisTemplate.keys("*e*");
+        keys.forEach(key-> System.out.println(key));
+
+        Boolean key2 = this.stringRedisTemplate.persist("key2");
+        System.out.println("key2 = " + key2);
+        Long key21 = this.stringRedisTemplate.getExpire("key2");
+        System.out.println("key21 = " + key21);
+        // 反序列化给定的key
+        //this.stringRedisTemplate.restore("wxw","[B@13a6726".getBytes(),5,TimeUnit.MINUTES);
+    }
 
     /**
      * String 类型的基本操作
@@ -81,9 +110,25 @@ public class RedisString {
         System.out.println("valueList = " + valueList);
     }
 
-    // Hash 数据结构
+    /**
+     * hash 类型的数据结构
+     */
     @Test
     public void test2() {
+        // 新增hash
+        this.redisTemplate.opsForHash().put("user","id","001");
+        this.redisTemplate.opsForHash().put("user","name","魏小伟");
+        this.redisTemplate.opsForHash().put("user","age", new Date());
+        this.redisTemplate.opsForHash().put("user","birthday", LocalDate.now());
+        List users = this.redisTemplate.opsForHash().values("user");
+        users.forEach(user-> System.out.println(user));
+
+
+
+    }
+
+    @Test
+    public void test11(){
 
     }
 
