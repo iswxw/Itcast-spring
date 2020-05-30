@@ -40,12 +40,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="（1）阿拉伯人民币转换为中文人民币&#10;（2）唯一ID生成工具&#10;（3）日期格式转换工具">
+    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="redis的key以及hash类型学习">
+      <change afterPath="$PROJECT_DIR$/boot-redis/src/test/java/com/wxw/redis/RedisList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-redis/src/test/java/com/wxw/redis/RedisSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/config/RedisHashConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/config/RedisHashConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/tools/ToolsDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/tools/ToolsDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-redis/src/test/java/com/wxw/redis/RedisString.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-redis/src/test/java/com/wxw/redis/RedisString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-redis/src/test/java/com/wxw/redis/RedisHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-redis/src/test/java/com/wxw/redis/RedisHash.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,16 +118,16 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Study_GO\Study_Project\Itcast-spring\boot-rabbitmq\src\main\resources" />
-      <recent name="F:\Study_GO\Study_Project\Itcast-spring\boot-rabbitmq\src\main\resources\mbg" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.wxw" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Study_GO\Study_Project\Itcast-spring\boot-rabbitmq\src\main\java\com\wxw\common\api" />
       <recent name="F:\Study_GO\Study_Project\Itcast-spring\boot-rabbitmq\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Study_GO\Study_Project\Itcast-spring\boot-rabbitmq\src\main\resources" />
+      <recent name="F:\Study_GO\Study_Project\Itcast-spring\boot-rabbitmq\src\main\resources\mbg" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -138,34 +137,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ToolsDate">
-    <configuration name="ToolsDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wxw.tools.ToolsDate" />
-      <module name="boot-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wxw.tools.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToolsNumberToCN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wxw.tools.ToolsNumberToCN" />
-      <module name="boot-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wxw.tools.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisString.test0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RedisSet">
+    <configuration name="RedisHash.testData1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boot-redis" />
       <extension name="coverage">
         <pattern>
@@ -174,14 +147,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.wxw.redis" />
-      <option name="MAIN_CLASS_NAME" value="com.wxw.redis.RedisString" />
-      <option name="METHOD_NAME" value="test0" />
+      <option name="MAIN_CLASS_NAME" value="com.wxw.redis.RedisHash" />
+      <option name="METHOD_NAME" value="testData1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisString.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RedisHash.testData2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boot-redis" />
       <extension name="coverage">
         <pattern>
@@ -190,14 +163,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.wxw.redis" />
-      <option name="MAIN_CLASS_NAME" value="com.wxw.redis.RedisString" />
-      <option name="METHOD_NAME" value="test11" />
+      <option name="MAIN_CLASS_NAME" value="com.wxw.redis.RedisHash" />
+      <option name="METHOD_NAME" value="testData2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisString.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RedisList.testDate1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boot-redis" />
       <extension name="coverage">
         <pattern>
@@ -206,8 +179,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.wxw.redis" />
-      <option name="MAIN_CLASS_NAME" value="com.wxw.redis.RedisString" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="com.wxw.redis.RedisList" />
+      <option name="METHOD_NAME" value="testDate1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wxw.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wxw.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.wxw.redis.RedisSet" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisSet.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wxw.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wxw.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.wxw.redis.RedisSet" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -299,11 +303,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ToolsDate" />
-        <item itemvalue="JUnit.RedisString.test2" />
-        <item itemvalue="JUnit.RedisString.test0" />
-        <item itemvalue="JUnit.RedisString.test11" />
-        <item itemvalue="Application.ToolsNumberToCN" />
+        <item itemvalue="JUnit.RedisSet" />
+        <item itemvalue="JUnit.RedisSet.test" />
+        <item itemvalue="JUnit.RedisList.testDate1" />
+        <item itemvalue="JUnit.RedisHash.testData1" />
+        <item itemvalue="JUnit.RedisHash.testData2" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +329,8 @@
       <workItem from="1584202258061" duration="5686000" />
       <workItem from="1584241590160" duration="8293000" />
       <workItem from="1590653201555" duration="10732000" />
-      <workItem from="1590711910808" duration="11042000" />
+      <workItem from="1590711910808" duration="11106000" />
+      <workItem from="1590829929335" duration="7352000" />
     </task>
     <task id="LOCAL-00001" summary="添加示例">
       <created>1584160240398</created>
@@ -369,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590661577807</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="redis的key以及hash类型学习">
+      <created>1590757429108</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590757429108</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +421,8 @@
     <MESSAGE value="rabbitmq" />
     <MESSAGE value="rabbitmq 订单管理" />
     <MESSAGE value="（1）阿拉伯人民币转换为中文人民币&#10;（2）唯一ID生成工具&#10;（3）日期格式转换工具" />
-    <option name="LAST_COMMIT_MESSAGE" value="（1）阿拉伯人民币转换为中文人民币&#10;（2）唯一ID生成工具&#10;（3）日期格式转换工具" />
+    <MESSAGE value="redis的key以及hash类型学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis的key以及hash类型学习" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1590712012105">
@@ -424,30 +437,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="210" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590656533477" />
-    <state width="1877" height="449" key="GridCell.Tab.0.bottom" timestamp="1590720708689">
+    <state width="1877" height="421" key="GridCell.Tab.0.bottom" timestamp="1590836809003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="449" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590720708689" />
-    <state width="1877" height="449" key="GridCell.Tab.0.center" timestamp="1590720708689">
+    <state width="1877" height="421" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590836809003" />
+    <state width="1877" height="421" key="GridCell.Tab.0.center" timestamp="1590836809002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="449" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590720708689" />
-    <state width="1877" height="449" key="GridCell.Tab.0.left" timestamp="1590720708689">
+    <state width="1877" height="421" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590836809002" />
+    <state width="1877" height="421" key="GridCell.Tab.0.left" timestamp="1590836809002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="449" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590720708689" />
-    <state width="1877" height="449" key="GridCell.Tab.0.right" timestamp="1590720708689">
+    <state width="1877" height="421" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590836809002" />
+    <state width="1877" height="421" key="GridCell.Tab.0.right" timestamp="1590836809003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="449" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590720708689" />
+    <state width="1877" height="421" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590836809003" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1590653966880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590653966880" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590661590137">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590757438012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590661590137" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590757438012" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590711963209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -456,9 +469,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590659602775" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590715130969">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590831684274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590715130969" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590831684274" />
   </component>
 </project>
