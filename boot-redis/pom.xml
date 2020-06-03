@@ -27,7 +27,11 @@
              <groupId>org.springframework.boot</groupId>
              <artifactId>spring-boot-starter-data-redis</artifactId>
          </dependency>
-
+         <!--统计用户有效点击数-->
+         <dependency>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-starter-aop</artifactId>
+         </dependency>
          <!--分布式锁1-->
          <dependency>
              <groupId>org.redisson</groupId>

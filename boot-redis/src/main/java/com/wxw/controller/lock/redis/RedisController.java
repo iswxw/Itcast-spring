@@ -1,4 +1,4 @@
-package com.wxw.controller.lock;
+package com.wxw.controller.lock.redis;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
  */
 @Slf4j
 @RestController
-public class LockController {
+public class RedisController {
 
     @Resource
     private StringRedisTemplate stringRedisTemplate;
