@@ -20,7 +20,14 @@ public class LockController {
     @Resource
     private StringRedisTemplate stringRedisTemplate;
 
-    @GetMapping("/deduck_stock")
+    /**
+     * http://localhost:5000/redis_stock
+     * 负载均衡到 7001 7002
+     * http://localhost:7001/redis_stock
+     * http://localhost:7002/redis_stock
+     * @return
+     */
+    @GetMapping("/redis_stock")
     public String deductStock() {
         String lockKey = "product_001::";
         String clientId = UUID.randomUUID().toString();
@@ -33,7 +40,7 @@ public class LockController {
             if (stock > 0) {
                 int realStock = stock - 1;
                 stringRedisTemplate.opsForValue().set("stock", realStock + "");
-                log.info("扣减成功，剩余库存：", realStock);
+                log.info("扣减成功，剩余库存：{}", realStock);
             } else {
                 log.info("扣减失败，库存不足");
             }
@@ -43,7 +50,7 @@ public class LockController {
                 this.stringRedisTemplate.delete(lockKey);
             }
         }
-        return "erreo code";
+        return "一次秒杀商品完成";
     }
 
 }

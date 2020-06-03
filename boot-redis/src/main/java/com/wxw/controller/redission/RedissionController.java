@@ -23,7 +23,7 @@ public class RedissionController {
     @Resource
     private Redisson redisson;
 
-    @GetMapping("/deduct_stock")
+    @GetMapping("/redission_stock")
     public String deductStock(){
         String lockKey = "product_001::";
         RLock redissonLock = redisson.getLock(lockKey);
@@ -33,7 +33,7 @@ public class RedissionController {
             if (stock > 0) {
                 int realStock = stock - 1;
                 stringRedisTemplate.opsForValue().set("stock", realStock + "");
-                log.info("扣减成功，剩余库存：", realStock);
+                log.info("扣减成功，剩余库存：{}", realStock);
             } else {
                 log.info("扣减失败，库存不足");
             }
