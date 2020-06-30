@@ -18,7 +18,8 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
  * @ Description：解决hash类型乱码的问题
  * @ Version:   v_0.0.1$
  */
-@Configuration
+@Deprecated
+//@Configuration
 public class RedisHashConfig {
 
     /**
