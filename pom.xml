@@ -19,12 +19,12 @@
         <module>boot-task</module>
         <module>boot-redis</module>
         <module>boot-rabbitmq</module>
-        <module>boot-rabbitmq</module>
         <module>boot-quartz</module>
         <module>itcast-elasticsearch</module>
         <module>itcast-rabbitmq</module>
         <module>itcast-rest</module>
         <module>boot-MinIO</module>
+        <module>boot-cache</module>
     </modules>
 
 </project>
