@@ -3,6 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -23,6 +24,7 @@
         <module>itcast-elasticsearch</module>
         <module>itcast-rabbitmq</module>
         <module>itcast-rest</module>
+        <module>boot-MinIO</module>
     </modules>
 
 </project>

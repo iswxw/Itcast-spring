@@ -47,11 +47,12 @@ public class ParseCornTest {
         System.out.println(dates.size());
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         for(int i =0;i < dates.size();i ++){
-            if(i >19){//这个是提示的日期个数
+            if(i >0){//这个是提示的日期个数
                 break;
             }
             resultList.add(dateFormat.format(dates.get(i)));
         }
+
         return resultList ;
     }
 }

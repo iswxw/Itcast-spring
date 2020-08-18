@@ -40,22 +40,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="将corn表达式解析为日期格式">
-      <change afterPath="$PROJECT_DIR$/boot-redis/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/config/RedisCacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/controller/web/RedisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/controller/web/SpringCacheRedisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/dao/SpringCacheRedisDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/service/MallRedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/service/SpringCacheRedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/service/impl/MallRedisServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/service/impl/SpringCacheRedisServiceImpl.java" afterDir="false" />
+    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="redis 结合Spring Cache缓存使用">
+      <change afterPath="$PROJECT_DIR$/boot-MinIO/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/target/classes/META-INF/itcast-quartz.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/MainRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/MainRedis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/config/RedisHashConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/config/RedisHashConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-redis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/task/ParseCornTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/task/ParseCornTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,11 +111,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reactor" />
@@ -324,8 +316,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MainRedis" />
         <item itemvalue="Application.ParseCornTest" />
+        <item itemvalue="Spring Boot.MainRedis" />
         <item itemvalue="JUnit.RedisHyperLogLog.testData1" />
         <item itemvalue="JUnit.RandomTest.testData1" />
         <item itemvalue="JUnit.JmeterTest.testData1" />
@@ -369,7 +361,11 @@
       <workItem from="1592881375248" duration="638000" />
       <workItem from="1592976262970" duration="1162000" />
       <workItem from="1593239992543" duration="9000" />
-      <workItem from="1593477194858" duration="5840000" />
+      <workItem from="1593477194858" duration="5974000" />
+      <workItem from="1593658423606" duration="182000" />
+      <workItem from="1593742216133" duration="18000" />
+      <workItem from="1593742294527" duration="951000" />
+      <workItem from="1597744821642" duration="1213000" />
     </task>
     <task id="LOCAL-00001" summary="添加示例">
       <created>1584160240398</created>
@@ -448,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591773406186</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="redis 结合Spring Cache缓存使用">
+      <created>1593496312737</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593496312737</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,17 +496,18 @@
     <MESSAGE value="redis+nginx实现简单的负载均衡在分布式锁上决绝超卖问题" />
     <MESSAGE value="redis 使用HyperlogLog 实现基数统计并结合代码进行误差测试（误差在81%）" />
     <MESSAGE value="将corn表达式解析为日期格式" />
-    <option name="LAST_COMMIT_MESSAGE" value="将corn表达式解析为日期格式" />
+    <MESSAGE value="redis 结合Spring Cache缓存使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis 结合Spring Cache缓存使用" />
   </component>
   <component name="WindowStateProjectService">
     <state x="842" y="382" key="#Notifications" timestamp="1590972112129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="842" y="382" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1590972112129" />
-    <state x="440" y="94" key="#Project_Structure" timestamp="1590712012105">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1597744829633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1590712012105" />
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1597744829633" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591152449569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -524,61 +528,61 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="210" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590656533477" />
-    <state width="1584" height="524" key="GridCell.Tab.0.bottom" timestamp="1593495083517">
+    <state width="1877" height="318" key="GridCell.Tab.0.bottom" timestamp="1593743246082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="524" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593495083517" />
-    <state width="1584" height="524" key="GridCell.Tab.0.center" timestamp="1593495083517">
+    <state width="1877" height="318" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593743246082" />
+    <state width="1877" height="318" key="GridCell.Tab.0.center" timestamp="1593743246082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="524" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593495083517" />
-    <state width="1584" height="524" key="GridCell.Tab.0.left" timestamp="1593495083517">
+    <state width="1877" height="318" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593743246082" />
+    <state width="1877" height="318" key="GridCell.Tab.0.left" timestamp="1593743246082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="524" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593495083517" />
-    <state width="1584" height="524" key="GridCell.Tab.0.right" timestamp="1593495083517">
+    <state width="1877" height="318" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593743246082" />
+    <state width="1877" height="318" key="GridCell.Tab.0.right" timestamp="1593743246082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="524" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593495083517" />
-    <state width="1584" height="524" key="GridCell.Tab.1.bottom" timestamp="1593495083517">
+    <state width="1877" height="318" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593743246082" />
+    <state width="1584" height="121" key="GridCell.Tab.1.bottom" timestamp="1593496349601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="524" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593495083517" />
-    <state width="1584" height="524" key="GridCell.Tab.1.center" timestamp="1593495083517">
+    <state width="1584" height="121" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593496349601" />
+    <state width="1584" height="121" key="GridCell.Tab.1.center" timestamp="1593496349601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="524" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593495083517" />
-    <state width="1584" height="524" key="GridCell.Tab.1.left" timestamp="1593495083517">
+    <state width="1584" height="121" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593496349601" />
+    <state width="1584" height="121" key="GridCell.Tab.1.left" timestamp="1593496349601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="524" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593495083517" />
-    <state width="1584" height="524" key="GridCell.Tab.1.right" timestamp="1593495083517">
+    <state width="1584" height="121" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593496349601" />
+    <state width="1584" height="121" key="GridCell.Tab.1.right" timestamp="1593496349601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="524" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593495083517" />
+    <state width="1584" height="121" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593496349601" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1591175438098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591175438098" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591773412783">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1593496319952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591773412783" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593496319952" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591143851758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591143851758" />
-    <state x="334" y="180" key="new project wizard" timestamp="1592976803081">
+    <state x="334" y="180" key="new project wizard" timestamp="1597744999050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592976803081" />
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1597744999050" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1590659602775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590659602775" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593489069466">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593496282442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593489069466" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593496282442" />
   </component>
 </project>
