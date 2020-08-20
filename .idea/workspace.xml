@@ -40,13 +40,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="redis 结合Spring Cache缓存使用">
-      <change afterPath="$PROJECT_DIR$/boot-MinIO/pom.xml" afterDir="false" />
+    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="引入MinIO 是FastDFS的加长版文件服务系统">
+      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/main/java/com/wxw/MinIOMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/main/java/com/wxw/common/config/MinIoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/main/java/com/wxw/common/properties/MinIoProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/main/java/com/wxw/common/tools/MinIoUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/main/java/com/wxw/test/FileUploader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/main/java/com/wxw/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/main/resources/minio.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/test/java/com/wxw/GoalbleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/task/ParseCornTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/task/ParseCornTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-MinIO/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-MinIO/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +152,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ParseCornTest">
+  <component name="RunManager" selected="JUnit.GoalbleTest.testData1">
+    <configuration name="FileUploader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wxw.test.FileUploader" />
+      <module name="boot-MinIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wxw.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParseCornTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wxw.task.ParseCornTest" />
       <module name="boot-quartz" />
@@ -158,32 +179,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JmeterTest.testData1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot-redis" />
+    <configuration name="GoalbleTest.testData1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-MinIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wxw.test.*" />
+          <option name="PATTERN" value="com.wxw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wxw.test" />
-      <option name="MAIN_CLASS_NAME" value="com.wxw.test.JmeterTest" />
-      <option name="METHOD_NAME" value="testData1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomTest.testData1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wxw.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wxw.test" />
-      <option name="MAIN_CLASS_NAME" value="com.wxw.test.RandomTest" />
+      <option name="PACKAGE_NAME" value="com.wxw" />
+      <option name="MAIN_CLASS_NAME" value="com.wxw.GoalbleTest" />
       <option name="METHOD_NAME" value="testData1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -306,21 +311,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.ParseCornTest" />
-      <item itemvalue="JUnit.JmeterTest.testData1" />
-      <item itemvalue="JUnit.RandomTest.testData1" />
       <item itemvalue="JUnit.RedisHyperLogLog.testData1" />
       <item itemvalue="Spring Boot.ElasticSearchMain" />
       <item itemvalue="Spring Boot.ItcastRestApplication" />
       <item itemvalue="Spring Boot.RabbitmqApplication" />
       <item itemvalue="Spring Boot.MainRedis" />
+      <item itemvalue="Application.FileUploader" />
+      <item itemvalue="JUnit.GoalbleTest.testData1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GoalbleTest.testData1" />
+        <item itemvalue="Application.FileUploader" />
         <item itemvalue="Application.ParseCornTest" />
         <item itemvalue="Spring Boot.MainRedis" />
         <item itemvalue="JUnit.RedisHyperLogLog.testData1" />
-        <item itemvalue="JUnit.RandomTest.testData1" />
-        <item itemvalue="JUnit.JmeterTest.testData1" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +370,8 @@
       <workItem from="1593658423606" duration="182000" />
       <workItem from="1593742216133" duration="18000" />
       <workItem from="1593742294527" duration="951000" />
-      <workItem from="1597744821642" duration="1213000" />
+      <workItem from="1597744821642" duration="1503000" />
+      <workItem from="1597904815351" duration="6766000" />
     </task>
     <task id="LOCAL-00001" summary="添加示例">
       <created>1584160240398</created>
@@ -451,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593496312737</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="引入MinIO 是FastDFS的加长版文件服务系统">
+      <created>1597746329048</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597746329048</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +510,8 @@
     <MESSAGE value="redis 使用HyperlogLog 实现基数统计并结合代码进行误差测试（误差在81%）" />
     <MESSAGE value="将corn表达式解析为日期格式" />
     <MESSAGE value="redis 结合Spring Cache缓存使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis 结合Spring Cache缓存使用" />
+    <MESSAGE value="引入MinIO 是FastDFS的加长版文件服务系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="引入MinIO 是FastDFS的加长版文件服务系统" />
   </component>
   <component name="WindowStateProjectService">
     <state x="842" y="382" key="#Notifications" timestamp="1590972112129">
@@ -528,46 +542,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="210" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590656533477" />
-    <state width="1877" height="318" key="GridCell.Tab.0.bottom" timestamp="1593743246082">
+    <state width="1877" height="318" key="GridCell.Tab.0.bottom" timestamp="1597908914965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593743246082" />
-    <state width="1877" height="318" key="GridCell.Tab.0.center" timestamp="1593743246082">
+    <state width="1877" height="318" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597908914965" />
+    <state width="1877" height="318" key="GridCell.Tab.0.center" timestamp="1597908914965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593743246082" />
-    <state width="1877" height="318" key="GridCell.Tab.0.left" timestamp="1593743246082">
+    <state width="1877" height="318" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597908914965" />
+    <state width="1877" height="318" key="GridCell.Tab.0.left" timestamp="1597908914964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593743246082" />
-    <state width="1877" height="318" key="GridCell.Tab.0.right" timestamp="1593743246082">
+    <state width="1877" height="318" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597908914964" />
+    <state width="1877" height="318" key="GridCell.Tab.0.right" timestamp="1597908914965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593743246082" />
-    <state width="1584" height="121" key="GridCell.Tab.1.bottom" timestamp="1593496349601">
+    <state width="1877" height="318" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597908914965" />
+    <state width="1877" height="337" key="GridCell.Tab.1.bottom" timestamp="1597907250103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="121" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593496349601" />
-    <state width="1584" height="121" key="GridCell.Tab.1.center" timestamp="1593496349601">
+    <state width="1877" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597907250103" />
+    <state width="1877" height="337" key="GridCell.Tab.1.center" timestamp="1597907250102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="121" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593496349601" />
-    <state width="1584" height="121" key="GridCell.Tab.1.left" timestamp="1593496349601">
+    <state width="1877" height="337" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597907250102" />
+    <state width="1877" height="337" key="GridCell.Tab.1.left" timestamp="1597907250102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="121" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593496349601" />
-    <state width="1584" height="121" key="GridCell.Tab.1.right" timestamp="1593496349601">
+    <state width="1877" height="337" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597907250102" />
+    <state width="1877" height="337" key="GridCell.Tab.1.right" timestamp="1597907250103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="121" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593496349601" />
+    <state width="1877" height="337" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597907250103" />
+    <state x="282" y="86" key="MergeDialog" timestamp="1597746504755">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="282" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597746504755" />
+    <state x="845" y="386" width="425" height="267" key="MultipleFileMergeDialog" timestamp="1597746504763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="845" y="386" width="425" height="267" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597746504763" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1591175438098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591175438098" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1593496319952">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597746543222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593496319952" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597746543222" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591143851758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -580,9 +602,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590659602775" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593496282442">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597910919554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593496282442" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597910919554" />
   </component>
 </project>

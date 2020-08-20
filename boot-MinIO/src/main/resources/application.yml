@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  servlet:
+    multipart:
+      enabled: true #开启文件上传
+      max-file-size: 500MB
+      max-request-size: 500MB
+
+minio:
+  endpoint: https://play.min.io #Minio服务所在地址
+  bucketName: bucket01 #存储桶名称
+  accessKey: Q3AM3UQ867SPQQA43P2F #访问的key
+  secretKey: tfteSlswRu7BJ86wekitnifILbZam1KYY3TG #访问的秘钥

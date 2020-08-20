@@ -10,10 +10,11 @@
         <module name="itcast-elasticsearch" />
         <module name="boot-redis" />
         <module name="boot-rabbitmq" />
-        <module name="boot-MinIO" />
+        <module name="itcast-rest" />
+        <module name="boot-cache" />
         <module name="boot-task" />
         <module name="boot-quartz" />
-        <module name="itcast-rest" />
+        <module name="boot-MinIO" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Itcast-spring" options="-parameters" />
       <module name="boot-MinIO" options="-parameters" />
+      <module name="boot-cache" options="-parameters" />
       <module name="boot-quartz" options="-parameters" />
       <module name="boot-rabbitmq" options="-parameters" />
       <module name="boot-redis" options="-parameters" />
