@@ -2,6 +2,7 @@ package com.wxw.controller;
 
 import com.wxw.common.tools.MinIoUtils;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -22,23 +23,24 @@ public class FileController {
     private MinIoUtils minIoUtils;
 
     @PostMapping("/upload")
-    public String MinIOUpload(MultipartFile file) {
+    public String MinIOUpload(@RequestParam("file") MultipartFile file) {
+        System.out.println("file = " + file);
         if (file.isEmpty() || file.getSize() == 0) {
             return "文件为空";
         }
         try {
-            if (!minIoUtils.bucketExists("javakf")) {
-                minIoUtils.makeBucket("javakf");
+            if (!minIoUtils.bucketExists("aaaa")) {
+                minIoUtils.makeBucket("aaaa");
             }
             String fileName = file.getOriginalFilename();
             String newName = "image/" + UUID.randomUUID().toString().replaceAll("-", "")
                     + fileName.substring(fileName.lastIndexOf("."));
 
             InputStream inputStream = file.getInputStream();
-            minIoUtils.putObject("javakf", newName, inputStream);
+            minIoUtils.putObject("aaaa", newName, inputStream);
             inputStream.close();
 
-            String url = minIoUtils.getObjectUrl("javakf", newName);
+            String url = minIoUtils.getObjectUrl("aaaa", newName);
             return url;
         } catch (Exception e) {
             e.printStackTrace();
