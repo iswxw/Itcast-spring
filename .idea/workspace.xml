@@ -40,21 +40,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="引入MinIO 是FastDFS的加长版文件服务系统">
-      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/main/java/com/wxw/MinIOMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/main/java/com/wxw/common/config/MinIoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/main/java/com/wxw/common/properties/MinIoProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/main/java/com/wxw/common/tools/MinIoUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/main/java/com/wxw/test/FileUploader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/main/java/com/wxw/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/main/resources/minio.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/test/java/com/wxw/GoalbleTest.java" afterDir="false" />
+    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="引入MinIO，以及基本环境配置">
+      <change afterPath="$PROJECT_DIR$/boot-MinIO/src/main/java/com/wxw/controller/FileController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot-MinIO/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-MinIO/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-MinIO/src/main/java/com/wxw/MinIOMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-MinIO/src/main/java/com/wxw/MinIOMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-MinIO/src/main/java/com/wxw/common/tools/MinIoUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-MinIO/src/main/java/com/wxw/common/tools/MinIoUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,12 +66,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>CancelOrderSender</find>
-      <find>Concel</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
@@ -152,7 +139,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GoalbleTest.testData1">
+  <component name="RunManager" selected="Spring Boot.MinIOMain">
     <configuration name="FileUploader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wxw.test.FileUploader" />
       <module name="boot-MinIO" />
@@ -195,22 +182,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisHyperLogLog.testData1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wxw.redis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wxw.redis" />
-      <option name="MAIN_CLASS_NAME" value="com.wxw.redis.RedisHyperLogLog" />
-      <option name="METHOD_NAME" value="testData1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ElasticSearchMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="itcast-elasticsearch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wxw.ElasticSearchMain" />
@@ -235,6 +206,19 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wxw.MainRedis" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinIOMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="boot-MinIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wxw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wxw.MinIOMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -311,21 +295,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.ParseCornTest" />
-      <item itemvalue="JUnit.RedisHyperLogLog.testData1" />
+      <item itemvalue="Application.FileUploader" />
+      <item itemvalue="JUnit.GoalbleTest.testData1" />
       <item itemvalue="Spring Boot.ElasticSearchMain" />
       <item itemvalue="Spring Boot.ItcastRestApplication" />
       <item itemvalue="Spring Boot.RabbitmqApplication" />
       <item itemvalue="Spring Boot.MainRedis" />
-      <item itemvalue="Application.FileUploader" />
-      <item itemvalue="JUnit.GoalbleTest.testData1" />
+      <item itemvalue="Spring Boot.MinIOMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MinIOMain" />
         <item itemvalue="JUnit.GoalbleTest.testData1" />
         <item itemvalue="Application.FileUploader" />
         <item itemvalue="Application.ParseCornTest" />
         <item itemvalue="Spring Boot.MainRedis" />
-        <item itemvalue="JUnit.RedisHyperLogLog.testData1" />
       </list>
     </recent_temporary>
   </component>
@@ -371,7 +355,8 @@
       <workItem from="1593742216133" duration="18000" />
       <workItem from="1593742294527" duration="951000" />
       <workItem from="1597744821642" duration="1503000" />
-      <workItem from="1597904815351" duration="6766000" />
+      <workItem from="1597904815351" duration="6816000" />
+      <workItem from="1598401464915" duration="4742000" />
     </task>
     <task id="LOCAL-00001" summary="添加示例">
       <created>1584160240398</created>
@@ -464,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597746329048</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="引入MinIO，以及基本环境配置">
+      <created>1597918830940</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1597918830940</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +503,8 @@
     <MESSAGE value="将corn表达式解析为日期格式" />
     <MESSAGE value="redis 结合Spring Cache缓存使用" />
     <MESSAGE value="引入MinIO 是FastDFS的加长版文件服务系统" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入MinIO 是FastDFS的加长版文件服务系统" />
+    <MESSAGE value="引入MinIO，以及基本环境配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="引入MinIO，以及基本环境配置" />
   </component>
   <component name="WindowStateProjectService">
     <state x="842" y="382" key="#Notifications" timestamp="1590972112129">
@@ -542,38 +535,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="210" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590656533477" />
-    <state width="1877" height="318" key="GridCell.Tab.0.bottom" timestamp="1597908914965">
+    <state width="1877" height="215" key="GridCell.Tab.0.bottom" timestamp="1597918850571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597908914965" />
-    <state width="1877" height="318" key="GridCell.Tab.0.center" timestamp="1597908914965">
+    <state width="1877" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597918850571" />
+    <state width="1877" height="215" key="GridCell.Tab.0.center" timestamp="1597918850571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597908914965" />
-    <state width="1877" height="318" key="GridCell.Tab.0.left" timestamp="1597908914964">
+    <state width="1877" height="215" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597918850571" />
+    <state width="1877" height="215" key="GridCell.Tab.0.left" timestamp="1597918850571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597908914964" />
-    <state width="1877" height="318" key="GridCell.Tab.0.right" timestamp="1597908914965">
+    <state width="1877" height="215" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597918850571" />
+    <state width="1877" height="215" key="GridCell.Tab.0.right" timestamp="1597918850571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597908914965" />
-    <state width="1877" height="337" key="GridCell.Tab.1.bottom" timestamp="1597907250103">
+    <state width="1877" height="215" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597918850571" />
+    <state width="1877" height="337" key="GridCell.Tab.1.bottom" timestamp="1597918850561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597907250103" />
-    <state width="1877" height="337" key="GridCell.Tab.1.center" timestamp="1597907250102">
+    <state width="1877" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597918850561" />
+    <state width="1877" height="337" key="GridCell.Tab.1.center" timestamp="1597918850561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597907250102" />
-    <state width="1877" height="337" key="GridCell.Tab.1.left" timestamp="1597907250102">
+    <state width="1877" height="337" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597918850561" />
+    <state width="1877" height="337" key="GridCell.Tab.1.left" timestamp="1597918850561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597907250102" />
-    <state width="1877" height="337" key="GridCell.Tab.1.right" timestamp="1597907250103">
+    <state width="1877" height="337" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597918850561" />
+    <state width="1877" height="337" key="GridCell.Tab.1.right" timestamp="1597918850561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597907250103" />
+    <state width="1877" height="337" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597918850561" />
     <state x="282" y="86" key="MergeDialog" timestamp="1597746504755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -586,10 +579,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591175438098" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597746543222">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597918836615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597746543222" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597918836615" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591143851758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

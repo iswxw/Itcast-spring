@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
+ *
  * @ Author ：wxw.
  * @ Date ： 14:54 2020/8/20
  * @ Description：对象存储服务启动类
