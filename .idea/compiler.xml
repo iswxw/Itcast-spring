@@ -10,6 +10,7 @@
         <module name="itcast-elasticsearch" />
         <module name="boot-redis" />
         <module name="boot-rabbitmq" />
+        <module name="boot-file" />
         <module name="boot-cache" />
         <module name="boot-MinIO" />
         <module name="boot-task" />
@@ -26,6 +27,7 @@
       <module name="Itcast-spring" options="-parameters" />
       <module name="boot-MinIO" options="-parameters" />
       <module name="boot-cache" options="-parameters" />
+      <module name="boot-file" options="-parameters" />
       <module name="boot-quartz" options="-parameters" />
       <module name="boot-rabbitmq" options="-parameters" />
       <module name="boot-redis" options="-parameters" />

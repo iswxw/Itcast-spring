@@ -25,6 +25,7 @@
         <module>itcast-rest</module>
         <module>boot-MinIO</module>
         <module>boot-cache</module>
+        <module>boot-file</module>
     </modules>
 
 </project>
