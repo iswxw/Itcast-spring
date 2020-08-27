@@ -10,12 +10,12 @@
         <module name="itcast-elasticsearch" />
         <module name="boot-redis" />
         <module name="boot-rabbitmq" />
+        <module name="itcast-rest" />
         <module name="boot-file" />
         <module name="boot-cache" />
-        <module name="boot-MinIO" />
         <module name="boot-task" />
         <module name="boot-quartz" />
-        <module name="itcast-rest" />
+        <module name="boot-MinIO" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
