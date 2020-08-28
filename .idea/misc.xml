@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal" />
+    <file type="web" url="file://$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz" />
+    <file type="web" url="file://$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-spring" />
     <type id="Spring" />
   </component>
   <component name="MavenProjectsManager">
@@ -12,6 +15,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/boot-redis/pom.xml" />
         <option value="$PROJECT_DIR$/boot-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/xxl-job/pom.xml" />
       </list>
     </option>
   </component>

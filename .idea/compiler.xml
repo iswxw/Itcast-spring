@@ -7,15 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="itcast-elasticsearch" />
+        <module name="xxl-job-executor-sample-spring" />
+        <module name="xxl-job-executor-sample-springboot" />
+        <module name="xxl-job-executor-sample-jfinal" />
+        <module name="boot-file" />
+        <module name="xxl-job-executor-sample-nutz" />
         <module name="boot-redis" />
+        <module name="xxl-job-executor-sample-frameless" />
+        <module name="xxl-job-admin" />
+        <module name="xxl-job-core" />
         <module name="boot-rabbitmq" />
         <module name="itcast-rest" />
-        <module name="boot-file" />
         <module name="boot-cache" />
+        <module name="itcast-elasticsearch" />
         <module name="boot-task" />
-        <module name="boot-quartz" />
         <module name="boot-MinIO" />
+        <module name="xxl-job-executor-sample-jboot" />
+        <module name="boot-quartz" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

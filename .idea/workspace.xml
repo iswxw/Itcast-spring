@@ -37,13 +37,309 @@
         <item name="GROUP_NODE:boot-quartz" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="Excel 文件的简单导入">
+    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="更新excel 文件">
+      <change afterPath="$PROJECT_DIR$/xxl-job/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/XXL-JOB-English-Documentation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/XXL-JOB官方文档.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/XXL-JOB架构图.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/db/tables_xxl_job.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/cnblog-首页-每日一博-第一.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/cnblog-首页-热门动弹-第一.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/donate-alipay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/donate-paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/donate-wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/gitee-gvp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_1001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_1002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_6yC0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_BPLG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_EB65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_Fgql.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_Hr2T.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_Qohm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_UDSo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_V3vF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_Wb2o.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_Ypik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_Z9Qr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_ZAhX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_ZAsz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_dNUJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_eYrv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_hIci.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_iUw0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_inc8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_jOAU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_jrdI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_o8HQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_tJOq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/img_tvGI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/qq群-一个xxl同学进了58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/xxl-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/doc/images/xxl-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/XxlJobAdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobGroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/annotation/PermissionLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/interceptor/CookieInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/interceptor/PermissionInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/interceptor/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/resolver/WebExceptionResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/alarm/JobAlarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/alarm/JobAlarmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/alarm/impl/EmailJobAlarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/conf/XxlJobAdminConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/cron/CronExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/exception/XxlJobException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobLogGlue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobLogReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/old/RemoteHttpJobBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/old/XxlJobDynamicScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/old/XxlJobThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/ExecutorRouteStrategyEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/ExecutorRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteBusyover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteConsistentHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteFailover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteLFU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteLRU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteLast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteRound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/scheduler/XxlJobScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobFailMonitorHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobLogReportHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobLosedMonitorHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobRegistryMonitorHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobScheduleHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobTriggerPoolHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/trigger/TriggerTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/trigger/XxlJobTrigger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/util/CookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/util/FtlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/util/I18nUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/util/JacksonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/util/LocalCacheUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobGroupDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobLogGlueDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobLogReportDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobRegistryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/service/XxlJobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/service/impl/AdminBizImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/java/com/xxl/job/admin/service/impl/XxlJobServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/i18n/message_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/i18n/message_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/i18n/message_zh_TC.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobGroupMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobLogGlueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobLogReportMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobRegistryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/adminlte/dist/css/AdminLTE.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/adminlte/dist/css/skins/_all-skins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/adminlte/dist/js/adminlte.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/adminlte/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/adminlte/plugins/iCheck/square/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/adminlte/plugins/iCheck/square/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/adminlte/plugins/iCheck/square/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/js/common.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/js/jobcode.index.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/js/jobgroup.index.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/js/jobinfo.index.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/js/joblog.detail.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/js/joblog.index.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/js/login.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/js/user.index.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/addon/hint/anyword-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/addon/hint/show-hint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/addon/hint/show-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/lib/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/lib/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/clike/clike.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/javascript/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/php/php.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/powershell/powershell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/python/python.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/shell/shell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/cronGen/cronGen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/cronGen/cronGen_en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/echarts/echarts.common.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/jquery/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/jquery/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/templates/common/common.exception.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/templates/common/common.macro.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/templates/help.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/templates/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/templates/jobcode/jobcode.index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/templates/jobgroup/jobgroup.index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/templates/jobinfo/jobinfo.index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/templates/joblog/joblog.detail.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/templates/joblog/joblog.index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/templates/login.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/main/resources/templates/user/user.index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/controller/AbstractSpringMvcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/controller/JobInfoControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/core/util/JacksonUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/dao/XxlJobGroupDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/dao/XxlJobInfoDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/dao/XxlJobLogDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/dao/XxlJobLogGlueDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/dao/XxlJobRegistryDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/util/I18nUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/adminbiz/AdminBizTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/executorbiz/ExecutorBizTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/AdminBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/ExecutorBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/client/AdminBizClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/client/ExecutorBizClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/impl/ExecutorBizImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/model/HandleCallbackParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/model/IdleBeatParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/model/KillParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/model/LogParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/model/LogResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/model/RegistryParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/model/ReturnT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/model/TriggerParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/context/XxlJobContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/enums/ExecutorBlockStrategyEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/enums/RegistryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/executor/XxlJobExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/executor/impl/XxlJobSpringExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/glue/GlueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/glue/GlueTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/glue/impl/SpringGlueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/handler/IJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/handler/annotation/JobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/handler/annotation/XxlJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/handler/impl/GlueJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/handler/impl/MethodJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/handler/impl/ScriptJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/log/XxlJobFileAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/log/XxlJobLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/server/EmbedServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/thread/ExecutorRegistryThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/thread/JobLogFileCleanThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/thread/JobThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/thread/TriggerCallbackThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/util/GsonTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/util/IpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/util/JdkSerializeTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/util/NetUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/util/ScriptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/util/ShardingUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/util/ThrowableUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/util/XxlJobRemotingUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-frameless/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-frameless/src/main/java/com/xuxueli/executor/sample/frameless/FramelessApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-frameless/src/main/java/com/xuxueli/executor/sample/frameless/config/FrameLessXxlJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-frameless/src/main/java/com/xuxueli/executor/sample/frameless/jobhandler/CommandJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-frameless/src/main/java/com/xuxueli/executor/sample/frameless/jobhandler/DemoJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-frameless/src/main/java/com/xuxueli/executor/sample/frameless/jobhandler/HttpJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-frameless/src/main/java/com/xuxueli/executor/sample/frameless/jobhandler/ShardingJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-frameless/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-frameless/src/main/resources/xxl-job-executor.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jboot/src/main/java/com/xuxueli/executor/sample/jboot/JbootApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jboot/src/main/java/com/xuxueli/executor/sample/jboot/config/JbootConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jboot/src/main/java/com/xuxueli/executor/sample/jboot/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jboot/src/main/java/com/xuxueli/executor/sample/jboot/jobhandler/CommandJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jboot/src/main/java/com/xuxueli/executor/sample/jboot/jobhandler/DemoJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jboot/src/main/java/com/xuxueli/executor/sample/jboot/jobhandler/HttpJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jboot/src/main/java/com/xuxueli/executor/sample/jboot/jobhandler/ShardingJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jboot/src/main/resources/jboot.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jboot/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jboot/src/test/java/com/xuxueli/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/src/main/java/com/xuxueli/executor/sample/jfinal/config/JFinalCoreConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/src/main/java/com/xuxueli/executor/sample/jfinal/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/src/main/java/com/xuxueli/executor/sample/jfinal/jobhandler/CommandJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/src/main/java/com/xuxueli/executor/sample/jfinal/jobhandler/DemoJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/src/main/java/com/xuxueli/executor/sample/jfinal/jobhandler/HttpJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/src/main/java/com/xuxueli/executor/sample/jfinal/jobhandler/ShardingJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/src/main/resources/xxl-job-executor.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/src/main/java/com/xuxueli/executor/sample/nutz/MainModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/src/main/java/com/xuxueli/executor/sample/nutz/config/NutzSetup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/src/main/java/com/xuxueli/executor/sample/nutz/jobhandler/CommandJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/src/main/java/com/xuxueli/executor/sample/nutz/jobhandler/DemoJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/src/main/java/com/xuxueli/executor/sample/nutz/jobhandler/HttpJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/src/main/java/com/xuxueli/executor/sample/nutz/jobhandler/ShardingJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/src/main/java/com/xuxueli/executor/sample/nutz/module/IndexModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/src/main/resources/xxl-job-executor.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/src/main/java/com/xxl/job/executor/service/jobhandler/SampleXxlJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/src/main/resources/applicationcontext-xxl-job.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/src/main/resources/xxl-job-executor.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/src/main/java/com/xxl/job/executor/XxlJobExecutorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/src/main/java/com/xxl/job/executor/core/config/XxlJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/src/main/java/com/xxl/job/executor/mvc/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/src/main/java/com/xxl/job/executor/service/jobhandler/SampleXxlJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/src/test/java/com/xxl/job/executor/test/XxlJobExecutorExampleBootApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-file/doc/excel/task-job - 副本.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/boot-file/doc/excel/task-job - 副本.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +399,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/boot-file/doc/excel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xxl-job" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -137,7 +433,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestExport.testExport">
+  <component name="RunManager" selected="Spring Boot.XxlJobAdminApplication">
     <configuration name="FileUploader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wxw.test.FileUploader" />
       <module name="boot-MinIO" />
@@ -230,6 +526,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XxlJobAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xxl-job-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxl.job.admin.XxlJobAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XxlJobExecutorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xxl-job-executor-sample-springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxl.job.executor.XxlJobExecutorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.40" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
@@ -302,6 +612,8 @@
       <item itemvalue="Spring Boot.ItcastRestApplication" />
       <item itemvalue="Spring Boot.RabbitmqApplication" />
       <item itemvalue="Spring Boot.MinIOMain" />
+      <item itemvalue="Spring Boot.XxlJobExecutorApplication" />
+      <item itemvalue="Spring Boot.XxlJobAdminApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -361,7 +673,8 @@
       <workItem from="1598421233268" duration="8038000" />
       <workItem from="1598431265214" duration="233000" />
       <workItem from="1598488593020" duration="8647000" />
-      <workItem from="1598520710258" duration="651000" />
+      <workItem from="1598520710258" duration="726000" />
+      <workItem from="1598594451271" duration="1851000" />
     </task>
     <task id="LOCAL-00001" summary="添加示例">
       <created>1584160240398</created>
@@ -482,7 +795,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598515323463</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="更新excel 文件">
+      <created>1598521383799</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1598521383799</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +813,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -533,7 +865,8 @@
     <MESSAGE value="分布式对象存储 MinIO" />
     <MESSAGE value="Minio上传文件" />
     <MESSAGE value="Excel 文件的简单导入" />
-    <option name="LAST_COMMIT_MESSAGE" value="Excel 文件的简单导入" />
+    <MESSAGE value="更新excel 文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新excel 文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="842" y="382" key="#Notifications" timestamp="1590972112129">
@@ -560,42 +893,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591773164987" />
-    <state x="740" y="210" key="FileChooserDialogImpl" timestamp="1590656533477">
+    <state x="740" y="210" key="FileChooserDialogImpl" timestamp="1598594705792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="210" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590656533477" />
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1598520952907">
+    <state x="740" y="210" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598594705792" />
+    <state width="1584" height="402" key="GridCell.Tab.0.bottom" timestamp="1598596306976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598520952907" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1598520952906">
+    <state width="1584" height="402" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598596306976" />
+    <state width="1584" height="402" key="GridCell.Tab.0.center" timestamp="1598596306976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598520952906" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1598520952906">
+    <state width="1584" height="402" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598596306976" />
+    <state width="1584" height="402" key="GridCell.Tab.0.left" timestamp="1598596306976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598520952906" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1598520952907">
+    <state width="1584" height="402" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598596306976" />
+    <state width="1584" height="402" key="GridCell.Tab.0.right" timestamp="1598596306976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598520952906" />
-    <state width="1584" height="315" key="GridCell.Tab.1.bottom" timestamp="1598429279527">
+    <state width="1584" height="402" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598596306976" />
+    <state width="1584" height="402" key="GridCell.Tab.1.bottom" timestamp="1598596306977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="315" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598429279527" />
-    <state width="1584" height="315" key="GridCell.Tab.1.center" timestamp="1598429279527">
+    <state width="1584" height="402" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598596306977" />
+    <state width="1584" height="402" key="GridCell.Tab.1.center" timestamp="1598596306976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="315" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598429279527" />
-    <state width="1584" height="315" key="GridCell.Tab.1.left" timestamp="1598429279527">
+    <state width="1584" height="402" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598596306976" />
+    <state width="1584" height="402" key="GridCell.Tab.1.left" timestamp="1598596306976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="315" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598429279527" />
-    <state width="1584" height="315" key="GridCell.Tab.1.right" timestamp="1598429279527">
+    <state width="1584" height="402" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598596306976" />
+    <state width="1584" height="402" key="GridCell.Tab.1.right" timestamp="1598596306977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="315" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598429279527" />
+    <state width="1584" height="402" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598596306977" />
     <state x="282" y="86" key="MergeDialog" timestamp="1597746504755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -604,33 +937,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="845" y="386" width="425" height="267" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597746504763" />
+    <state x="600" y="223" key="NewModule_or_Project.wizard" timestamp="1598594718118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="600" y="223" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1598594718118" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1591175438098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591175438098" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598515330031">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598521389975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598515330031" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598521389975" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591143851758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591143851758" />
-    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1598423581877">
+    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1598594692654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598423581877" />
-    <state x="334" y="180" key="new project wizard" timestamp="1598488923479">
+    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598594692654" />
+    <state x="334" y="180" key="new project wizard" timestamp="1598594670991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1598488923479" />
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1598594670991" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1590659602775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590659602775" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597910919554">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598595623853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597910919554" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598595623853" />
   </component>
 </project>
