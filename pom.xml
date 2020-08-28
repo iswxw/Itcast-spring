@@ -26,6 +26,7 @@
         <module>boot-MinIO</module>
         <module>boot-cache</module>
         <module>boot-file</module>
+        <module>xxl-job</module>
     </modules>
 
 </project>
