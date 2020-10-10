@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/boot-seckill" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-boot-seckill" vcs="Git" />
   </component>
 </project>

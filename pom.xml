@@ -27,6 +27,7 @@
         <module>boot-cache</module>
         <module>boot-file</module>
         <module>xxl-job</module>
+        <module>boot-seckill</module>
     </modules>
 
 </project>

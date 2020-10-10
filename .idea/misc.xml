@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/boot-redis/pom.xml" />
         <option value="$PROJECT_DIR$/boot-cache/pom.xml" />
         <option value="$PROJECT_DIR$/xxl-job/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-seckill/pom.xml" />
       </list>
     </option>
   </component>
