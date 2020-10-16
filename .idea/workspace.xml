@@ -46,16 +46,49 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="xxl-job的架构调整">
+    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/docs/advance_p1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/docs/advance_p2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/docs/base.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/cdn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/choosehead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/classmodels.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/datamodels.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/frame1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/frame2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/frame3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/frame4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/item.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/leekBucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/models.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/nginx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/ngxin2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/points.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/register.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/register1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/requestResrProcess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/structure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/tokenBucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/advance/createitem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/advance/gethost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/advance/getitem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/advance/getotp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/advance/listitem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/advance/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/advance/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/base/createitem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/base/getitem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/base/getotp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/base/listitem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/base/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/base/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Itcast-spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Itcast-spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,8 +367,8 @@
       <item itemvalue="Spring Boot.RabbitmqApplication" />
       <item itemvalue="Spring Boot.XxlJobExecutorApplication" />
       <item itemvalue="Spring Boot.XxlJobAdminApplication" />
-      <item itemvalue="Spring Boot.MinIOMain" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.MinIOMain" />
     </list>
     <recent_temporary>
       <list>
@@ -406,7 +439,9 @@
       <workItem from="1600225378852" duration="24000" />
       <workItem from="1600225425708" duration="6000" />
       <workItem from="1600409109026" duration="16000" />
-      <workItem from="1602319065293" duration="3517000" />
+      <workItem from="1602319065293" duration="3950000" />
+      <workItem from="1602550054965" duration="740000" />
+      <workItem from="1602825703426" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="添加示例">
       <created>1584160240398</created>
@@ -617,30 +652,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="xxl-job的架构调整" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="842" y="382" key="#Notifications" timestamp="1590972112129">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="842" y="382" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1590972112129" />
     <state x="440" y="94" key="#Project_Structure" timestamp="1597744829633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1597744829633" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591152449569">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591152449569" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1593496045571">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593496045571" />
-    <state x="553" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591171756794">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="553" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591171756794" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591773164987">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591773164987" />
     <state x="740" y="210" key="FileChooserDialogImpl" timestamp="1598594705792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -689,26 +704,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="223" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1598594718118" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1591175438098">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602323172927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591175438098" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598611902689">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602323172927" />
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602825761337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598611902689" />
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599464285204">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599464285204" />
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602825761337" />
     <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1598594692654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598594692654" />
-    <state x="334" y="180" key="new project wizard" timestamp="1598594670991">
+    <state x="334" y="180" key="new project wizard" timestamp="1602825896736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1598594670991" />
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1602825896736" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598595623853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

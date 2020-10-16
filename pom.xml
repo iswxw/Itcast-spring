@@ -28,6 +28,7 @@
         <module>boot-file</module>
         <module>xxl-job</module>
         <module>boot-seckill</module>
+        <module>boot-imooc-seckill</module>
     </modules>
 
 </project>

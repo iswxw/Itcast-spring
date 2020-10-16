@@ -15,6 +15,7 @@
         <module name="xxl-job-executor-sample-nutz" />
         <module name="boot-redis" />
         <module name="xxl-job-executor-sample-frameless" />
+        <module name="boot-imooc-seckill" />
         <module name="xxl-job-admin" />
         <module name="xxl-job-core" />
         <module name="boot-rabbitmq" />
@@ -23,6 +24,7 @@
         <module name="itcast-elasticsearch" />
         <module name="boot-task" />
         <module name="boot-MinIO" />
+        <module name="SecKill_Bases" />
         <module name="xxl-job-executor-sample-jboot" />
         <module name="boot-quartz" />
       </profile>
@@ -34,9 +36,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Itcast-spring" options="-parameters" />
+      <module name="SecKill_Bases" options="-parameters" />
       <module name="boot-MinIO" options="-parameters" />
       <module name="boot-cache" options="-parameters" />
       <module name="boot-file" options="-parameters" />
+      <module name="boot-imooc-seckill" options="-parameters" />
       <module name="boot-quartz" options="-parameters" />
       <module name="boot-rabbitmq" options="-parameters" />
       <module name="boot-redis" options="-parameters" />
