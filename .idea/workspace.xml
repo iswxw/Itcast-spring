@@ -46,49 +46,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/docs/advance_p1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/docs/advance_p2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/docs/base.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/cdn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/choosehead.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/classmodels.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/datamodels.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/frame1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/frame2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/frame3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/frame4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/leekBucket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/models.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/nginx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/ngxin2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/points.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/register.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/register1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/requestResrProcess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/structure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/imgs/tokenBucket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/advance/createitem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/advance/gethost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/advance/getitem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/advance/getotp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/advance/listitem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/advance/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/advance/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/base/createitem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/base/getitem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/base/getotp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/base/listitem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/base/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pages/base/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-imooc-seckill/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="秒杀系统">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -441,7 +400,7 @@
       <workItem from="1600409109026" duration="16000" />
       <workItem from="1602319065293" duration="3950000" />
       <workItem from="1602550054965" duration="740000" />
-      <workItem from="1602825703426" duration="304000" />
+      <workItem from="1602825703426" duration="1776000" />
     </task>
     <task id="LOCAL-00001" summary="添加示例">
       <created>1584160240398</created>
@@ -583,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598611895513</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="秒杀系统">
+      <created>1602826335139</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1602826335139</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +615,8 @@
     <MESSAGE value="更新excel 文件" />
     <MESSAGE value="初步构建 xxljob" />
     <MESSAGE value="xxl-job的架构调整" />
-    <option name="LAST_COMMIT_MESSAGE" value="xxl-job的架构调整" />
+    <MESSAGE value="秒杀系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="秒杀系统" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1597744829633">
@@ -704,10 +671,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="223" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1598594718118" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602323172927">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602826342010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602323172927" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602826342010" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602825761337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
