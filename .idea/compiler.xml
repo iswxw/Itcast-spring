@@ -24,13 +24,13 @@
         <module name="itcast-elasticsearch" />
         <module name="boot-task" />
         <module name="boot-MinIO" />
-        <module name="SecKill_Bases" />
         <module name="xxl-job-executor-sample-jboot" />
         <module name="boot-quartz" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="itcast-quartz" target="1.8" />
+      <module name="SecKill_Bases" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -2,7 +2,6 @@ package com.wxw.redis;
 
 import com.wxw.domain.Address;
 import com.wxw.domain.Person;
-import com.wxw.tools.ToolsJson;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;

@@ -1,5 +1,5 @@
 package com.wxw.task;
-import com.wxw.job.DurableCustomJob;
+import com.wxw.job.AbstractJob;
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;
 
@@ -15,7 +15,7 @@ public class DurableJobStoreTest {
         // 获取Scheduler
         Scheduler scheduler = StdSchedulerFactory.getDefaultScheduler();
 
-        JobDetail jobDetail = JobBuilder.newJob(DurableCustomJob.class)
+        JobDetail jobDetail = JobBuilder.newJob(AbstractJob.class)
                 .withIdentity("job", "group_01")
                 .storeDurably(true)
                 .build();

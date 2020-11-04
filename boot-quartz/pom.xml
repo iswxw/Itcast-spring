@@ -90,6 +90,33 @@
             <artifactId>velocity-engine-core</artifactId>
             <version>2.1</version>
         </dependency>
+        <!--commom-long3-->
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+        </dependency>
     </dependencies>
 
+    <!--插件管理-->
+    <build>
+        <plugins>
+            <!--maven 插件管理-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <!--加入下面两项配置 父子聚合项目中需要将子包打包为jar包时使用-->
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <includeSystemScope>true</includeSystemScope>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

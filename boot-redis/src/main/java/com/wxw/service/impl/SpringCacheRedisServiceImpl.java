@@ -1,6 +1,6 @@
 package com.wxw.service.impl;
 
-import com.wxw.config.RedisCacheConfig;
+import com.wxw.common.config.RedisCacheConfig;
 import com.wxw.dao.SpringCacheRedisDao;
 import com.wxw.domain.Address;
 import com.wxw.domain.Person;
