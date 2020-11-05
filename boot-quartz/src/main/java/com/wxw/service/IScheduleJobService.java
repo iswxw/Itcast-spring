@@ -4,6 +4,7 @@ import com.wxw.common.result.PageResult;
 import com.wxw.domain.ScheduleJob;
 import com.baomidou.mybatisplus.extension.service.IService;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -33,7 +34,7 @@ public interface IScheduleJobService extends IService<ScheduleJob> {
      * 批量删除任务
      * @param jobIds
      */
-    void deleteBatch(Long... jobIds);
+    void deleteBatch(List<Long> jobIds);
 
     /**
      * 更新定时任务
@@ -45,17 +46,22 @@ public interface IScheduleJobService extends IService<ScheduleJob> {
      * 立即执行定时任务
      * @param jobIds
      */
-    void run(Long... jobIds);
+    void run(List<Long> jobIds);
 
     /**
      * 暂停定时任务
      * @param jobIds
      */
-    void pause(Long... jobIds);
+    void pause(List<Long> jobIds);
 
     /**
      * 恢复定时任务
      * @param jobIds
      */
-    void resume(Long... jobIds);
+    void resume(List<Long> jobIds);
+
+    /**
+     * 批量更新定时任务状态
+     */
+    int updateBatch(List<Long> jobIds, int status);
 }

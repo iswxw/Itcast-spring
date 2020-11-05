@@ -15,7 +15,14 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        job_id, bean_name, params, cron_expression, status, remark, create_time
+        jobId, beanName, params, cronExpression, status, remark, createTime
     </sql>
+    <!--批量更新任务状态-->
+    <update id="updateBatch">
+        update schedule_job set status = #{status} where job_id in
+        <foreach item="jobId" collection="list"  open="(" separator="," close=")">
+            #{jobId}
+        </foreach>
+    </update>
 
 </mapper>

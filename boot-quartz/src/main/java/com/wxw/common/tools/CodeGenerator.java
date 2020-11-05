@@ -69,7 +69,7 @@ public class CodeGenerator {
                 .setNaming(NamingStrategy.underline_to_camel)
                 .setRestControllerStyle(true)
                 .setEntityLombokModel(true)
-                .setTablePrefix("tb_")
+                .setTablePrefix("sys_")
                 .setControllerMappingHyphenStyle(true)
                 .setInclude(scanner("表名，多个英文逗号分割").split(","));
 

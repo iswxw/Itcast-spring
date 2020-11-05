@@ -8,6 +8,7 @@ import org.quartz.JobExecutionException;
  * 新建执行的任务
  */
 public class JobTest implements Job {
+
     @Override
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
 

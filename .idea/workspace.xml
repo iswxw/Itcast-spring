@@ -46,55 +46,40 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="秒杀系统">
-      <change afterPath="$PROJECT_DIR$/boot-quartz/doc/wxw_security.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/common/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/common/RRException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/common/config/ApplicationContextTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/common/config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/common/result/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/common/result/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/common/tools/ScheduleUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/controller/ScheduleJobController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/controller/ScheduleJobLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/dao/ScheduleJobLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/dao/ScheduleJobMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/dao/mapper/ScheduleJobLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/dao/mapper/ScheduleJobMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/domain/ScheduleJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/domain/ScheduleJobLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/IScheduleJobLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/IScheduleJobService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/impl/ScheduleJobLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/impl/ScheduleJobServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="定时任务整改">
+      <change afterPath="$PROJECT_DIR$/boot-quartz/doc/errorlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/job/DurableCustomTestJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/DurableCustomTestJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-quartz/src/test/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot-quartz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/config/QuartzConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/QuartzMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/QuartzMain8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/common/tools/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/common/tools/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/controller/ScheduleJobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/controller/ScheduleJobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/controller/ScheduleJobLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/controller/ScheduleJobLogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/job/DurableCustomJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/job/AbstractJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/tools/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/common/tools/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/tools/DataUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/common/tools/DataUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/dao/ScheduleJobLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/dao/ScheduleJobLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/dao/ScheduleJobMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/dao/ScheduleJobMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/dao/mapper/ScheduleJobLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/resources/mapper/ScheduleJobLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/dao/mapper/ScheduleJobMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/resources/mapper/ScheduleJobMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/dao/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/domain/ScheduleJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/domain/ScheduleJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/job/AbstractJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/job/AbstractJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/IScheduleJobLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/IScheduleJobLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/IScheduleJobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/IScheduleJobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/impl/ScheduleJobLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/impl/ScheduleJobLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/impl/ScheduleJobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/impl/ScheduleJobServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/task/DurableJobStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/task/DurableJobStoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/config/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/config/MyBatisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/config/RabbitMqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/config/RabbitMqConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/config/Swagger2Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/tools/CommentGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/tools/CommentGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/tools/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/tools/Generator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-rabbitmq/src/main/resources/mbg/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/resources/mbg/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/config/RedisCacheConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/common/config/RedisCacheConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/config/RedisHashConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/common/config/RedisHashConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/config/RedisssionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/common/config/RedisssionConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/service/impl/SpringCacheRedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/service/impl/SpringCacheRedisServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/tools/ToolsDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/common/tools/ToolsDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/tools/ToolsID.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/common/tools/ToolsID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/tools/ToolsJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/common/tools/ToolsJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/tools/ToolsNumberToCN.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-redis/src/main/java/com/wxw/common/tools/ToolsNumberToCN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-redis/src/test/java/com/wxw/redis/RedisHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-redis/src/test/java/com/wxw/redis/RedisHash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-rest/src/main/java/com/wxw/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rest/src/main/java/com/wxw/common/config/RestTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/TestJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/job/JobTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/job/JobTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/job/ScheduleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/job/ScheduleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/task/jdbcJobTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/target/classes/application.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,11 +150,6 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Project\wxw2020\Itcast-spring\boot-MinIO\src\main\resources\static" />
-      <recent name="F:\Study_GO\Study_Project\Itcast-spring\boot-rabbitmq\src\main\resources" />
-      <recent name="F:\Study_GO\Study_Project\Itcast-spring\boot-rabbitmq\src\main\resources\mbg" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.wxw" />
     </key>
@@ -177,6 +157,13 @@
       <recent name="D:\Project\wxw2020\Itcast-spring\boot-file\doc\excel" />
       <recent name="F:\Study_GO\Study_Project\Itcast-spring\boot-rabbitmq\src\main\java\com\wxw\common\api" />
       <recent name="F:\Study_GO\Study_Project\Itcast-spring\boot-rabbitmq\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\wxw2020\Itcast-spring\boot-quartz\src\main\resources\mapper" />
+      <recent name="D:\Project\wxw2020\Itcast-spring\boot-quartz\src\main\resources" />
+      <recent name="D:\Project\wxw2020\Itcast-spring\boot-MinIO\src\main\resources\static" />
+      <recent name="F:\Study_GO\Study_Project\Itcast-spring\boot-rabbitmq\src\main\resources" />
+      <recent name="F:\Study_GO\Study_Project\Itcast-spring\boot-rabbitmq\src\main\resources\mbg" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -186,7 +173,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CodeGenerator">
+  <component name="RunManager" selected="JUnit.UserServiceTest">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wxw.common.tools.CodeGenerator" />
       <module name="boot-quartz" />
@@ -200,21 +187,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileUploader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wxw.test.FileUploader" />
-      <module name="boot-MinIO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wxw.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GoalbleTest.testData1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot-MinIO" />
+    <configuration name="DurableCustomTestJob" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-quartz" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.wxw.*" />
@@ -222,24 +196,54 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.wxw" />
-      <option name="MAIN_CLASS_NAME" value="com.wxw.GoalbleTest" />
-      <option name="METHOD_NAME" value="testData1" />
+      <option name="MAIN_CLASS_NAME" value="com.wxw.DurableCustomTestJob" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DurableCustomTestJob.testJob" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-quartz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wxw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wxw" />
+      <option name="MAIN_CLASS_NAME" value="com.wxw.DurableCustomTestJob" />
+      <option name="METHOD_NAME" value="testJob" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestExport.testExport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot-file" />
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-quartz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wxw.common.excel.*" />
+          <option name="PATTERN" value="com.wxw.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wxw.common.excel" />
-      <option name="MAIN_CLASS_NAME" value="com.wxw.common.excel.TestExport" />
-      <option name="METHOD_NAME" value="testExport" />
+      <option name="PACKAGE_NAME" value="com.wxw.service" />
+      <option name="MAIN_CLASS_NAME" value="com.wxw.service.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-quartz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wxw.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wxw.service" />
+      <option name="MAIN_CLASS_NAME" value="com.wxw.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -262,19 +266,6 @@
     <configuration name="ItcastRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="itcast-rest" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wxw.ItcastRestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinIOMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="boot-MinIO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wxw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wxw.MinIOMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -371,26 +362,26 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FileUploader" />
-      <item itemvalue="JUnit.GoalbleTest.testData1" />
-      <item itemvalue="JUnit.TestExport.testExport" />
+      <item itemvalue="Application.CodeGenerator" />
       <item itemvalue="Spring Boot.ElasticSearchMain" />
       <item itemvalue="Spring Boot.ItcastRestApplication" />
       <item itemvalue="Spring Boot.RabbitmqApplication" />
       <item itemvalue="Spring Boot.XxlJobExecutorApplication" />
       <item itemvalue="Spring Boot.XxlJobAdminApplication" />
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Spring Boot.MinIOMain" />
-      <item itemvalue="Application.CodeGenerator" />
       <item itemvalue="Spring Boot.QuartzMain8001" />
+      <item itemvalue="JUnit.DurableCustomTestJob" />
+      <item itemvalue="JUnit.DurableCustomTestJob.testJob" />
+      <item itemvalue="JUnit.UserServiceTest.testFindAll" />
+      <item itemvalue="JUnit.UserServiceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.UserServiceTest.testFindAll" />
         <item itemvalue="Application.CodeGenerator" />
-        <item itemvalue="JUnit.TestExport.testExport" />
-        <item itemvalue="Spring Boot.MinIOMain" />
-        <item itemvalue="JUnit.GoalbleTest.testData1" />
-        <item itemvalue="Application.FileUploader" />
+        <item itemvalue="JUnit.DurableCustomTestJob" />
+        <item itemvalue="JUnit.DurableCustomTestJob.testJob" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +449,8 @@
       <workItem from="1602825703426" duration="1776000" />
       <workItem from="1604284799915" duration="942000" />
       <workItem from="1604366273279" duration="2703000" />
-      <workItem from="1604456924257" duration="17294000" />
+      <workItem from="1604456924257" duration="17372000" />
+      <workItem from="1604535964203" duration="11194000" />
     </task>
     <task id="LOCAL-00001" summary="添加示例">
       <created>1584160240398</created>
@@ -607,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602826335139</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="定时任务整改">
+      <created>1604483221556</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1604483221556</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -674,57 +673,70 @@
     <MESSAGE value="初步构建 xxljob" />
     <MESSAGE value="xxl-job的架构调整" />
     <MESSAGE value="秒杀系统" />
-    <option name="LAST_COMMIT_MESSAGE" value="秒杀系统" />
+    <MESSAGE value="定时任务整改" />
+    <option name="LAST_COMMIT_MESSAGE" value="定时任务整改" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1597744829633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1597744829633" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1604459082685">
+    <state x="699" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604568540679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604459082685" />
-    <state x="576" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604460299951">
+    <state x="699" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604568540679" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1604561560839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="576" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604460299951" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604561560839" />
+    <state x="576" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604566874156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="576" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604566874156" />
+    <state x="681" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604565670685">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604565670685" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604569265947">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604569265947" />
     <state x="740" y="210" key="FileChooserDialogImpl" timestamp="1598594705792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="210" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598594705792" />
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1604457934363">
+    <state width="1877" height="360" key="GridCell.Tab.0.bottom" timestamp="1604569898755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604457934363" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1604457934363">
+    <state width="1877" height="360" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604569898755" />
+    <state width="1877" height="360" key="GridCell.Tab.0.center" timestamp="1604569898755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604457934363" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1604457934362">
+    <state width="1877" height="360" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604569898755" />
+    <state width="1877" height="360" key="GridCell.Tab.0.left" timestamp="1604569898754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604457934362" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1604457934363">
+    <state width="1877" height="360" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604569898754" />
+    <state width="1877" height="360" key="GridCell.Tab.0.right" timestamp="1604569898755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604457934363" />
-    <state width="1584" height="402" key="GridCell.Tab.1.bottom" timestamp="1598603341089">
+    <state width="1877" height="360" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604569898755" />
+    <state width="1584" height="402" key="GridCell.Tab.1.bottom" timestamp="1604568891923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="402" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598603341089" />
-    <state width="1584" height="402" key="GridCell.Tab.1.center" timestamp="1598603341089">
+    <state width="1584" height="402" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604568891923" />
+    <state width="1584" height="402" key="GridCell.Tab.1.center" timestamp="1604568891923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="402" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598603341089" />
-    <state width="1584" height="402" key="GridCell.Tab.1.left" timestamp="1598603341089">
+    <state width="1584" height="402" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604568891923" />
+    <state width="1584" height="402" key="GridCell.Tab.1.left" timestamp="1604568891923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="402" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598603341089" />
-    <state width="1584" height="402" key="GridCell.Tab.1.right" timestamp="1598603341089">
+    <state width="1584" height="402" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604568891923" />
+    <state width="1584" height="402" key="GridCell.Tab.1.right" timestamp="1604568891923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="402" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598603341089" />
+    <state width="1584" height="402" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604568891923" />
     <state x="282" y="86" key="MergeDialog" timestamp="1597746504755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -737,18 +749,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="223" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1598594718118" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602826342010">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604483228039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602826342010" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604483228039" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602825761337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602825761337" />
-    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1598594692654">
+    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1604565612859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598594692654" />
+    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604565612859" />
     <state x="334" y="180" key="new project wizard" timestamp="1602825896736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

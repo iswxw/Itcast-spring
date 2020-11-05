@@ -1,6 +1,5 @@
 package com.wxw.controller;
 
-import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.wxw.common.result.PageResult;
 import com.wxw.domain.ScheduleJob;
 import com.wxw.service.IScheduleJobService;
@@ -10,7 +9,7 @@ import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.sql.Wrapper;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -74,7 +73,7 @@ public class ScheduleJobController {
      * 删除定时任务
      */
     @RequestMapping("/delete")
-    public ResponseEntity<Void> delete(@RequestBody Long[] jobIds){
+    public ResponseEntity<Void> delete(@RequestBody List<Long> jobIds){
         scheduleJobService.deleteBatch(jobIds);
         return ResponseEntity.status(HttpStatus.OK).build();
     }
@@ -83,7 +82,7 @@ public class ScheduleJobController {
      * 立即执行任务
      */
     @RequestMapping("/run")
-    public ResponseEntity<Void> run(@RequestBody Long[] jobIds){
+    public ResponseEntity<Void> run(@RequestBody List<Long> jobIds){
         scheduleJobService.run(jobIds);
         return ResponseEntity.status(HttpStatus.OK).build();
     }
@@ -92,7 +91,7 @@ public class ScheduleJobController {
      * 暂停定时任务
      */
     @RequestMapping("/pause")
-    public ResponseEntity<Void> pause(@RequestBody Long[] jobIds){
+    public ResponseEntity<Void> pause(@RequestBody List<Long> jobIds){
         scheduleJobService.pause(jobIds);
         return ResponseEntity.status(HttpStatus.OK).build();
     }
@@ -101,7 +100,7 @@ public class ScheduleJobController {
      * 恢复定时任务
      */
     @RequestMapping("/resume")
-    public ResponseEntity<Void>  resume(@RequestBody Long[] jobIds){
+    public ResponseEntity<Void>  resume(@RequestBody List<Long> jobIds){
         scheduleJobService.resume(jobIds);
         return ResponseEntity.status(HttpStatus.OK).build();
     }

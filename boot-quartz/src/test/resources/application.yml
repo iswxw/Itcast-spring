@@ -1,0 +1,23 @@
+# 数据源
+spring:
+  application:
+    name: boot-quartz
+  datasource:
+    url: jdbc:mysql://localhost:3306/wxw_security?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+  quartz:
+    job-store-type: memory
+    wait-for-jobs-to-complete-on-shutdown: true
+    properties:
+      org:
+        quartz:
+          scheduler:
+            instanceId: AUTO
+            #instanceName: clusteredScheduler #quartzScheduler
+          threadPool: #连接池
+            class: org.quartz.simpl.SimpleThreadPool
+            threadCount: 10
+            threadPriority: 5
+            threadsInheritContextClassLoaderOfInitializingThread: true

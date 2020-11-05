@@ -4,9 +4,14 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.time.LocalDateTime;
 import java.io.Serializable;
+import java.util.Date;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
+
+import javax.validation.constraints.NotBlank;
 
 /**
  * <p>
@@ -36,6 +41,7 @@ public class ScheduleJob implements Serializable {
     /**
      * spring bean名称
      */
+    @NotBlank(message="bean名称不能为空")
     private String beanName;
 
     /**
@@ -46,6 +52,7 @@ public class ScheduleJob implements Serializable {
     /**
      * cron表达式
      */
+    @NotBlank(message="cron表达式不能为空")
     private String cronExpression;
 
     /**
@@ -61,7 +68,8 @@ public class ScheduleJob implements Serializable {
     /**
      * 创建时间
      */
-    private LocalDateTime createTime;
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
+    private Date createTime;
 
 
 }

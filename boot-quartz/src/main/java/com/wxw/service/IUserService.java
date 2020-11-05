@@ -5,11 +5,11 @@ import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
  * <p>
- *  服务类
+ * 系统用户 服务类
  * </p>
  *
  * @author WXW
- * @since 2020-05-26
+ * @since 2020-11-05
  */
 public interface IUserService extends IService<User> {
 

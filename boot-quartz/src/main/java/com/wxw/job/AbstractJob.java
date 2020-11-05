@@ -12,7 +12,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.quartz.QuartzJobBean;
 import org.springframework.util.StopWatch;
 
-import java.lang.reflect.Method;
 import java.time.LocalDateTime;
 
 /**
@@ -21,9 +20,9 @@ import java.time.LocalDateTime;
  * @ Description：持久化的任务测试
  * @ Version:   v_0.0.1$
  */
-public class AbstractJob extends QuartzJobBean {
+public abstract class AbstractJob extends QuartzJobBean {
 
-    private Logger logger = LoggerFactory.getLogger(getClass());
+    protected Logger logger = LoggerFactory.getLogger(getClass());
 
     @Override
     protected void executeInternal(JobExecutionContext jobContext) throws JobExecutionException {
@@ -42,9 +41,10 @@ public class AbstractJob extends QuartzJobBean {
         try {
             //执行任务
             logger.debug("任务准备执行，任务ID：" + scheduleJob.getJobId());
-            Object target = ApplicationContextTools.getBean(scheduleJob.getBeanName());
-            Method method = target.getClass().getDeclaredMethod("run", String.class);
-            method.invoke(target, scheduleJob.getParams());
+            //Object target = ApplicationContextTools.getBean(scheduleJob.getBeanName());
+            //Method method = target.getClass().getDeclaredMethod("run", String.class);
+            //method.invoke(target, scheduleJob.getParams());
+            this.executeJob(jobContext);
             //任务执行总时长
             watch.stop();
             int times = (int) watch.getTotalTimeSeconds();
@@ -66,4 +66,6 @@ public class AbstractJob extends QuartzJobBean {
             scheduleJobLogService.save(jobLog);
         }
     }
+
+    protected abstract void executeJob(JobExecutionContext jobContext) throws Exception;
 }

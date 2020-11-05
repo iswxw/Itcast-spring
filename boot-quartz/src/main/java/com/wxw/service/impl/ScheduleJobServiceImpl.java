@@ -1,6 +1,5 @@
 package com.wxw.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.query.Query;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -14,17 +13,12 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.apache.commons.lang3.StringUtils;
 import org.quartz.CronTrigger;
 import org.quartz.Scheduler;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
-import java.time.LocalDateTime;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * <p>
@@ -42,6 +36,7 @@ public class ScheduleJobServiceImpl extends ServiceImpl<ScheduleJobMapper, Sched
 
     @Resource
     private ScheduleJobMapper scheduleJobMapper;
+
     /**
      * 项目启动时，初始化定时器
      */
@@ -70,7 +65,7 @@ public class ScheduleJobServiceImpl extends ServiceImpl<ScheduleJobMapper, Sched
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void saveJob(ScheduleJob scheduleJob) {
-        scheduleJob.setCreateTime(LocalDateTime.now());
+        scheduleJob.setCreateTime(new Date());
         scheduleJob.setStatus(Constant.ScheduleStatus.NORMAL.getValue());
         this.save(scheduleJob);
         ScheduleUtils.createScheduleJob(scheduler, scheduleJob);
@@ -85,17 +80,17 @@ public class ScheduleJobServiceImpl extends ServiceImpl<ScheduleJobMapper, Sched
 
     @Override
     @Transactional(rollbackFor = Exception.class)
-    public void deleteBatch(Long... jobIds) {
+    public void deleteBatch(List<Long> jobIds) {
         for(Long jobId : jobIds){
             ScheduleUtils.deleteScheduleJob(scheduler, jobId);
         }
         //删除数据
-        this.removeByIds(Arrays.asList(jobIds));
+        this.removeByIds(jobIds);
     }
 
     @Override
     @Transactional(rollbackFor = Exception.class)
-    public void run(Long... jobIds) {
+    public void run(List<Long> jobIds) {
         for(Long jobId : jobIds){
             ScheduleUtils.run(scheduler, this.getById(jobId));
         }
@@ -103,20 +98,28 @@ public class ScheduleJobServiceImpl extends ServiceImpl<ScheduleJobMapper, Sched
 
     @Override
     @Transactional(rollbackFor = Exception.class)
-    public void pause(Long... jobIds) {
+    public void pause(List<Long> jobIds) {
         for(Long jobId : jobIds){
             ScheduleUtils.pauseJob(scheduler, jobId);
         }
-       // updateBatch(jobIds, Constant.ScheduleStatus.PAUSE.getValue());
+        updateBatch(jobIds, Constant.ScheduleStatus.PAUSE.getValue());
     }
 
     @Override
     @Transactional(rollbackFor = Exception.class)
-    public void resume(Long... jobIds) {
+    public void resume(List<Long> jobIds) {
         for(Long jobId : jobIds){
             ScheduleUtils.resumeJob(scheduler, jobId);
         }
-      //  updateBatch(jobIds, Constant.ScheduleStatus.NORMAL.getValue());
+        updateBatch(jobIds, Constant.ScheduleStatus.NORMAL.getValue());
+    }
+
+    @Override
+    public int updateBatch(List<Long> jobIds, int status) {
+        Map<String, Object> map = new HashMap<>(2);
+        map.put("list", jobIds);
+        map.put("status", status);
+        return scheduleJobMapper.updateBatch(map);
     }
 
 }
