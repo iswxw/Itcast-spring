@@ -28,7 +28,7 @@ public abstract class AbstractJob extends QuartzJobBean {
     protected void executeInternal(JobExecutionContext jobContext) throws JobExecutionException {
         ScheduleJob scheduleJob = (ScheduleJob) jobContext.getMergedJobDataMap().get(ScheduleJob.JOB_PARAM_KEY);
         //获取spring bean
-        IScheduleJobLogService scheduleJobLogService = (IScheduleJobLogService) ApplicationContextTools.getBean("iScheduleJobLogService");
+        IScheduleJobLogService scheduleJobLogService = (IScheduleJobLogService) ApplicationContextTools.getBean("scheduleJobLogService");
         //数据库保存执行记录
         ScheduleJobLog jobLog = new ScheduleJobLog();
         jobLog.setJobId(scheduleJob.getJobId());

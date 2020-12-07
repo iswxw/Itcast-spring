@@ -36,7 +36,8 @@ public class DurableCustomTestJob {
         scheduleJob.setRemark("定时任务备注");
         scheduleJob.setCronExpression("0 0/5 * * * ? ");
         buildTestJob(scheduleJob);
-        ScheduleUtils.createScheduleJob(scheduler,scheduleJob);
+//        ScheduleUtils.createScheduleJob(scheduler,scheduleJob);
+        ScheduleUtils.deleteScheduleJob(scheduler,1L);
     }
 
     @After

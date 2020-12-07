@@ -59,7 +59,7 @@ public class ScheduleJobServiceImpl extends ServiceImpl<ScheduleJobMapper, Sched
         String beanName = (String)params.get("beanName");
         IPage<ScheduleJob> page = new Page<>();
         IPage<ScheduleJob> pages = this.page(page, new QueryWrapper<ScheduleJob>().like(StringUtils.isNotBlank(beanName),"bean_name", beanName));
-        return  new PageResult<>(page.getTotal(),page.getRecords());
+        return  new PageResult<>(pages.getTotal(),pages.getPages(),pages.getRecords());
     }
 
     @Override

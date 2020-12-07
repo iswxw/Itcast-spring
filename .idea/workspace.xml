@@ -46,9 +46,21 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="定时任务整改 v0.1">
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/source/QuartzSource.java" afterDir="false" />
+    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="定时任务整改 v0.2">
+      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/job/testTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/QuartzMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/QuartzMain8061.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/common/tools/ScheduleUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/common/tools/ScheduleUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/controller/ScheduleJobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/controller/ScheduleJobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/job/AbstractJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/job/AbstractJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/job/DurableCustomTestJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/job/DurableCustomTestJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/impl/ScheduleJobLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/impl/ScheduleJobLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/impl/ScheduleJobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/impl/ScheduleJobServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/DurableCustomTestJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/DurableCustomTestJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/test/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,20 +154,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ScheduleTest">
-    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wxw.common.tools.CodeGenerator" />
-      <module name="boot-quartz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wxw.common.tools.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.QuartzMain8061">
     <configuration name="ScheduleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wxw.job.ScheduleTest" />
       <module name="boot-quartz" />
@@ -180,6 +179,22 @@
       <option name="PACKAGE_NAME" value="com.wxw" />
       <option name="MAIN_CLASS_NAME" value="com.wxw.DurableCustomTestJob" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DurableCustomTestJob.testJob" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-quartz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wxw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wxw" />
+      <option name="MAIN_CLASS_NAME" value="com.wxw.DurableCustomTestJob" />
+      <option name="METHOD_NAME" value="testJob" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -236,9 +251,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuartzMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="QuartzMain8061" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="boot-quartz" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wxw.QuartzMain8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wxw.QuartzMain8061" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -328,7 +344,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CodeGenerator" />
+      <item itemvalue="Application.ScheduleTest" />
       <item itemvalue="JUnit.DurableCustomTestJob" />
       <item itemvalue="JUnit.UserServiceTest.testFindAll" />
       <item itemvalue="JUnit.UserServiceTest" />
@@ -338,16 +354,16 @@
       <item itemvalue="Spring Boot.XxlJobExecutorApplication" />
       <item itemvalue="Spring Boot.XxlJobAdminApplication" />
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Spring Boot.QuartzMain8001" />
-      <item itemvalue="Application.ScheduleTest" />
+      <item itemvalue="JUnit.DurableCustomTestJob.testJob" />
+      <item itemvalue="Spring Boot.QuartzMain8061" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DurableCustomTestJob.testJob" />
+        <item itemvalue="JUnit.DurableCustomTestJob" />
         <item itemvalue="Application.ScheduleTest" />
         <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.UserServiceTest.testFindAll" />
-        <item itemvalue="Application.CodeGenerator" />
-        <item itemvalue="JUnit.DurableCustomTestJob" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +435,8 @@
       <workItem from="1604535964203" duration="11279000" />
       <workItem from="1604986795980" duration="617000" />
       <workItem from="1604996023894" duration="190000" />
-      <workItem from="1604996989355" duration="4704000" />
+      <workItem from="1604996989355" duration="5052000" />
+      <workItem from="1607302084645" duration="8324000" />
     </task>
     <task id="LOCAL-00001" summary="添加示例">
       <created>1584160240398</created>
@@ -582,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604569991461</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="定时任务整改 v0.2">
+      <created>1605002015504</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1605002015504</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,21 +675,22 @@
     <MESSAGE value="秒杀系统" />
     <MESSAGE value="定时任务整改" />
     <MESSAGE value="定时任务整改 v0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="定时任务整改 v0.1" />
+    <MESSAGE value="定时任务整改 v0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="定时任务整改 v0.2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1597744829633">
+    <state x="590" y="114" key="#QuartzMain8001" timestamp="1607308911540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1597744829633" />
+    <state x="590" y="114" key="#QuartzMain8001/0.0.1920.1040@0.0.1920.1040" timestamp="1607308911539" />
     <state x="699" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604568540679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="699" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604568540679" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1604561560839">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1607307685966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604561560839" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607307685966" />
     <state x="576" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604566874156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -678,84 +703,53 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604569265947" />
-    <state x="740" y="210" key="FileChooserDialogImpl" timestamp="1598594705792">
+    <state width="1584" height="415" key="GridCell.Tab.0.bottom" timestamp="1607310828033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="210" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598594705792" />
-    <state width="1877" height="337" key="GridCell.Tab.0.bottom" timestamp="1604997458139">
+    <state width="1584" height="415" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607310828033" />
+    <state width="1584" height="415" key="GridCell.Tab.0.center" timestamp="1607310828033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604997458139" />
-    <state width="1877" height="337" key="GridCell.Tab.0.center" timestamp="1604997458139">
+    <state width="1584" height="415" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607310828033" />
+    <state width="1584" height="415" key="GridCell.Tab.0.left" timestamp="1607310828032">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604997458139" />
-    <state width="1877" height="337" key="GridCell.Tab.0.left" timestamp="1604997458139">
+    <state width="1584" height="415" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607310828032" />
+    <state width="1584" height="415" key="GridCell.Tab.0.right" timestamp="1607310828033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604997458139" />
-    <state width="1877" height="337" key="GridCell.Tab.0.right" timestamp="1604997458139">
+    <state width="1584" height="415" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607310828033" />
+    <state width="1584" height="415" key="GridCell.Tab.1.bottom" timestamp="1607310828033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604997458139" />
-    <state width="1877" height="337" key="GridCell.Tab.1.bottom" timestamp="1604997458634">
+    <state width="1584" height="415" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607310828033" />
+    <state width="1584" height="415" key="GridCell.Tab.1.center" timestamp="1607310828033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604997458634" />
-    <state width="1877" height="337" key="GridCell.Tab.1.center" timestamp="1604997458634">
+    <state width="1584" height="415" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607310828033" />
+    <state width="1584" height="415" key="GridCell.Tab.1.left" timestamp="1607310828033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604997458634" />
-    <state width="1877" height="337" key="GridCell.Tab.1.left" timestamp="1604997458634">
+    <state width="1584" height="415" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607310828033" />
+    <state width="1584" height="415" key="GridCell.Tab.1.right" timestamp="1607310828033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604997458634" />
-    <state width="1877" height="337" key="GridCell.Tab.1.right" timestamp="1604997458634">
+    <state width="1584" height="415" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607310828033" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605002026667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604997458634" />
-    <state x="282" y="86" key="MergeDialog" timestamp="1597746504755">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="282" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597746504755" />
-    <state x="845" y="386" width="425" height="267" key="MultipleFileMergeDialog" timestamp="1597746504763">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="845" y="386" width="425" height="267" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597746504763" />
-    <state x="600" y="223" key="NewModule_or_Project.wizard" timestamp="1598594718118">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="600" y="223" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1598594718118" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604569997078">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604569997078" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605002026667" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602825761337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602825761337" />
-    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1604565612859">
+    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1607307430320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604565612859" />
+    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607307430320" />
     <state x="334" y="180" key="new project wizard" timestamp="1602825896736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1602825896736" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598595623853">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598595623853" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/job/ScheduleTest.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

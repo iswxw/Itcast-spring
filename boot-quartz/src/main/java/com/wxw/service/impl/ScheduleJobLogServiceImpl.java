@@ -24,11 +24,11 @@ import java.util.Map;
  * @author WXW
  * @since 2020-11-04
  */
-@Service
+@Service("scheduleJobLogService")
 public class ScheduleJobLogServiceImpl extends ServiceImpl<ScheduleJobLogMapper, ScheduleJobLog> implements IScheduleJobLogService {
 
     @Resource
-    private IScheduleJobLogService iScheduleJobLogService;
+    private IScheduleJobLogService scheduleJobLogService;
 
     @Override
     public PageResult<ScheduleJobLog> queryScheduleLogByPage(Map<String, Object> params) {

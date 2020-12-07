@@ -5,15 +5,15 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author ：wxw.
- * @date ： 15:32 2020/11/5
- * @description：测试定时任务
+ * @date ： 10:21 2020/12/7
+ * @description：任务测试
+ * @link:
  * @version: v_0.0.1
  */
 @Component
-public class DurableCustomTestJob extends AbstractJob {
-
+public class testTask extends AbstractJob {
     @Override
     protected void executeJob(JobExecutionContext jobContext) throws Exception {
-        logger.debug("TestJob定时任务正在执行，参数为：{}", "Hello Quartz");
+        logger.info("任务删除");
     }
 }

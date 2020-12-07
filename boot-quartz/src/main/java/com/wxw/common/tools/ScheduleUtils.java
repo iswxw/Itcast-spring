@@ -46,8 +46,15 @@ public class ScheduleUtils {
      */
     public static void createScheduleJob(Scheduler scheduler, ScheduleJob scheduleJob) {
         try {
+            String className = getClassName(scheduleJob.getBeanName());
+            Class<?> jobClass = null;
+            try {
+                jobClass = AbstractJob.class.getClassLoader().loadClass(className);
+            } catch (ClassNotFoundException e) {
+                throw new RRException("任务类未发现异常", e);
+            }
             //构建job信息
-            JobDetail jobDetail = JobBuilder.newJob(AbstractJob.class).withIdentity(getJobKey(scheduleJob.getJobId())).build();
+            JobDetail jobDetail = JobBuilder.newJob((Class<? extends Job>) jobClass).withIdentity(getJobKey(scheduleJob.getJobId())).build();
 
             //表达式调度构建器
             CronScheduleBuilder scheduleBuilder = CronScheduleBuilder.cronSchedule(scheduleJob.getCronExpression()).withMisfireHandlingInstructionDoNothing();
@@ -67,6 +74,10 @@ public class ScheduleUtils {
         } catch (SchedulerException e) {
             throw new RRException("创建定时任务失败", e);
         }
+    }
+
+    private static String getClassName(String beanName) {
+        return "com.wxw.job." + beanName;
     }
 
     /**

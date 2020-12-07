@@ -30,7 +30,7 @@ public class ScheduleJobController {
     /**
      * 定时任务列表
      */
-    @RequestMapping("/list")
+    @GetMapping("/list")
     public ResponseEntity<PageResult<ScheduleJob>> list(@RequestParam Map<String, Object> params) {
         PageResult<ScheduleJob> pageResult = scheduleJobService.queryJobByPage(params);
         if (pageResult == null || CollectionUtils.isEmpty(pageResult.getItems())) {
@@ -42,7 +42,7 @@ public class ScheduleJobController {
     /**
      * 根据jobId查询定时任务信息
      */
-    @RequestMapping("/info/{jobId}")
+    @GetMapping("/info/{jobId}")
     public ResponseEntity<ScheduleJob> info(@PathVariable("jobId") Long jobId) {
         ScheduleJob schedule = scheduleJobService.getById(jobId);
         if (schedule == null) {
@@ -54,7 +54,7 @@ public class ScheduleJobController {
     /**
      * 保存定时任务
      */
-    @RequestMapping("/save")
+    @PostMapping("/save")
     public ResponseEntity<Void> save(@RequestBody ScheduleJob scheduleJob) {
         scheduleJobService.saveJob(scheduleJob);
         return ResponseEntity.status(HttpStatus.CREATED).build();

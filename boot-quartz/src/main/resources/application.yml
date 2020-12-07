@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8061
 # 数据源
 spring:
   application:
