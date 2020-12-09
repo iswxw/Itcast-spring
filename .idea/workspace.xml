@@ -15,27 +15,6 @@
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:boot-quartz" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select>
       <path>
@@ -46,21 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="定时任务整改 v0.2">
-      <change afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/job/testTask.java" afterDir="false" />
+    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="定时任务整改 v0.3&#10;增加资源监控">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/QuartzMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/QuartzMain8061.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/common/tools/ScheduleUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/common/tools/ScheduleUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/controller/ScheduleJobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/controller/ScheduleJobController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/job/AbstractJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/job/AbstractJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/job/DurableCustomTestJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/job/DurableCustomTestJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/impl/ScheduleJobLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/impl/ScheduleJobLogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/impl/ScheduleJobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/service/impl/ScheduleJobServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/DurableCustomTestJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/test/java/com/wxw/DurableCustomTestJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/domain/ScheduleJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/domain/ScheduleJob.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +48,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev-wxw-20201207" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -348,22 +320,22 @@
       <item itemvalue="JUnit.DurableCustomTestJob" />
       <item itemvalue="JUnit.UserServiceTest.testFindAll" />
       <item itemvalue="JUnit.UserServiceTest" />
+      <item itemvalue="JUnit.DurableCustomTestJob.testJob" />
       <item itemvalue="Spring Boot.ElasticSearchMain" />
       <item itemvalue="Spring Boot.ItcastRestApplication" />
       <item itemvalue="Spring Boot.RabbitmqApplication" />
       <item itemvalue="Spring Boot.XxlJobExecutorApplication" />
       <item itemvalue="Spring Boot.XxlJobAdminApplication" />
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="JUnit.DurableCustomTestJob.testJob" />
       <item itemvalue="Spring Boot.QuartzMain8061" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DurableCustomTestJob.testJob" />
-        <item itemvalue="JUnit.DurableCustomTestJob" />
-        <item itemvalue="Application.ScheduleTest" />
         <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.UserServiceTest.testFindAll" />
+        <item itemvalue="JUnit.DurableCustomTestJob" />
+        <item itemvalue="Application.ScheduleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -436,7 +408,8 @@
       <workItem from="1604986795980" duration="617000" />
       <workItem from="1604996023894" duration="190000" />
       <workItem from="1604996989355" duration="5052000" />
-      <workItem from="1607302084645" duration="8324000" />
+      <workItem from="1607302084645" duration="8560000" />
+      <workItem from="1607498207405" duration="4313000" />
     </task>
     <task id="LOCAL-00001" summary="添加示例">
       <created>1584160240398</created>
@@ -606,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605002015504</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="定时任务整改 v0.3&#10;增加资源监控">
+      <created>1607310986938</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1607310986939</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,7 +656,8 @@
     <MESSAGE value="定时任务整改" />
     <MESSAGE value="定时任务整改 v0.1" />
     <MESSAGE value="定时任务整改 v0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="定时任务整改 v0.2" />
+    <MESSAGE value="定时任务整改 v0.3&#10;增加资源监控" />
+    <option name="LAST_COMMIT_MESSAGE" value="定时任务整改 v0.3&#10;增加资源监控" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="114" key="#QuartzMain8001" timestamp="1607308911540">
@@ -703,42 +684,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604569265947" />
-    <state width="1584" height="415" key="GridCell.Tab.0.bottom" timestamp="1607310828033">
+    <state width="520" height="529" key="Git.Branch.Popup" timestamp="1607311148087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="415" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607310828033" />
-    <state width="1584" height="415" key="GridCell.Tab.0.center" timestamp="1607310828033">
+    <state width="520" height="529" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607311148087" />
+    <state width="1877" height="508" key="GridCell.Tab.0.bottom" timestamp="1607311190389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="415" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607310828033" />
-    <state width="1584" height="415" key="GridCell.Tab.0.left" timestamp="1607310828032">
+    <state width="1877" height="508" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607311190389" />
+    <state width="1877" height="508" key="GridCell.Tab.0.center" timestamp="1607311190389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="415" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607310828032" />
-    <state width="1584" height="415" key="GridCell.Tab.0.right" timestamp="1607310828033">
+    <state width="1877" height="508" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607311190389" />
+    <state width="1877" height="508" key="GridCell.Tab.0.left" timestamp="1607311190389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="415" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607310828033" />
-    <state width="1584" height="415" key="GridCell.Tab.1.bottom" timestamp="1607310828033">
+    <state width="1877" height="508" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607311190389" />
+    <state width="1877" height="508" key="GridCell.Tab.0.right" timestamp="1607311190389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="415" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607310828033" />
-    <state width="1584" height="415" key="GridCell.Tab.1.center" timestamp="1607310828033">
+    <state width="1877" height="508" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607311190389" />
+    <state width="1877" height="498" key="GridCell.Tab.1.bottom" timestamp="1607311190387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="415" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607310828033" />
-    <state width="1584" height="415" key="GridCell.Tab.1.left" timestamp="1607310828033">
+    <state width="1877" height="498" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607311190387" />
+    <state width="1877" height="498" key="GridCell.Tab.1.center" timestamp="1607311190387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="415" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607310828033" />
-    <state width="1584" height="415" key="GridCell.Tab.1.right" timestamp="1607310828033">
+    <state width="1877" height="498" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607311190387" />
+    <state width="1877" height="498" key="GridCell.Tab.1.left" timestamp="1607311190387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1584" height="415" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607310828033" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605002026667">
+    <state width="1877" height="498" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607311190387" />
+    <state width="1877" height="498" key="GridCell.Tab.1.right" timestamp="1607311190387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605002026667" />
+    <state width="1877" height="498" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607311190387" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607311128940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607311128940" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602825761337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
