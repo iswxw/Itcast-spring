@@ -29,6 +29,7 @@
         <module>xxl-job</module>
         <module>boot-seckill</module>
         <module>boot-imooc-seckill</module>
+        <module>boot-github</module>
     </modules>
 
 </project>

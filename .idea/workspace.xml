@@ -25,9 +25,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="定时任务整改 v0.3&#10;增加资源监控">
+    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="定时任务整改 v0.3">
+      <change afterPath="$PROJECT_DIR$/boot-github/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-github/boot-github.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-github/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-github/src/main/java/com/wxw/LoginGitHubMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-github/src/main/java/com/wxw/common/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-github/src/main/java/com/wxw/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-github/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-github/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/domain/ScheduleJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-quartz/src/main/java/com/wxw/domain/ScheduleJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,6 +234,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginGitHubMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boot-github" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wxw.LoginGitHubMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuartzMain8061" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="boot-quartz" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wxw.QuartzMain8061" />
@@ -328,6 +346,7 @@
       <item itemvalue="Spring Boot.XxlJobAdminApplication" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.QuartzMain8061" />
+      <item itemvalue="Spring Boot.LoginGitHubMain" />
     </list>
     <recent_temporary>
       <list>
@@ -409,7 +428,8 @@
       <workItem from="1604996023894" duration="190000" />
       <workItem from="1604996989355" duration="5052000" />
       <workItem from="1607302084645" duration="8560000" />
-      <workItem from="1607498207405" duration="4313000" />
+      <workItem from="1607498207405" duration="4365000" />
+      <workItem from="1607572081077" duration="467000" />
     </task>
     <task id="LOCAL-00001" summary="添加示例">
       <created>1584160240398</created>
@@ -586,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607310986939</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="定时任务整改 v0.3">
+      <created>1607508586265</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1607508586265</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,7 +659,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="添加示例" />
     <MESSAGE value="Springboot整合swagger2" />
     <MESSAGE value="12" />
     <MESSAGE value="rabbitmq" />
@@ -657,7 +683,8 @@
     <MESSAGE value="定时任务整改 v0.1" />
     <MESSAGE value="定时任务整改 v0.2" />
     <MESSAGE value="定时任务整改 v0.3&#10;增加资源监控" />
-    <option name="LAST_COMMIT_MESSAGE" value="定时任务整改 v0.3&#10;增加资源监控" />
+    <MESSAGE value="定时任务整改 v0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="定时任务整改 v0.3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="114" key="#QuartzMain8001" timestamp="1607308911540">
@@ -720,10 +747,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="498" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607311190387" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607311128940">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607508591669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607311128940" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607508591669" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602825761337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -732,9 +759,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607307430320" />
-    <state x="334" y="180" key="new project wizard" timestamp="1602825896736">
+    <state x="334" y="180" key="new project wizard" timestamp="1607572140954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1602825896736" />
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1607572140954" />
   </component>
 </project>

@@ -10,6 +10,7 @@
         <module name="xxl-job-executor-sample-spring" />
         <module name="xxl-job-executor-sample-springboot" />
         <module name="boot-seckill" />
+        <module name="boot-github" />
         <module name="xxl-job-executor-sample-jfinal" />
         <module name="boot-file" />
         <module name="xxl-job-executor-sample-nutz" />
@@ -40,6 +41,7 @@
       <module name="boot-MinIO" options="-parameters" />
       <module name="boot-cache" options="-parameters" />
       <module name="boot-file" options="-parameters" />
+      <module name="boot-github" options="-parameters" />
       <module name="boot-imooc-seckill" options="-parameters" />
       <module name="boot-quartz" options="-parameters" />
       <module name="boot-rabbitmq" options="-parameters" />

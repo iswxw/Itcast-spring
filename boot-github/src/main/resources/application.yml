@@ -1,0 +1,14 @@
+
+# 日志级别
+logging:
+  level:
+    org.springframework.security: debug
+# spring oauth2授权配置登录github
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: 917ba023efdfd1330114
+            clientSecret: ab132178be6e5c91a7498de34e58ad2a37271287
