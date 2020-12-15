@@ -25,20 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="定时任务整改 v0.3">
-      <change afterPath="$PROJECT_DIR$/boot-github/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-github/boot-github.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-github/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-github/src/main/java/com/wxw/LoginGitHubMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-github/src/main/java/com/wxw/common/config/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-github/src/main/java/com/wxw/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-github/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-github/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="github 登录 oauth2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/enum/QueueEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/enums/QueueEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/mq/CancelOrderReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/mq/CancelOrderReceiver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +98,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reactor" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -429,7 +419,8 @@
       <workItem from="1604996989355" duration="5052000" />
       <workItem from="1607302084645" duration="8560000" />
       <workItem from="1607498207405" duration="4365000" />
-      <workItem from="1607572081077" duration="467000" />
+      <workItem from="1607572081077" duration="547000" />
+      <workItem from="1607997693847" duration="988000" />
     </task>
     <task id="LOCAL-00001" summary="添加示例">
       <created>1584160240398</created>
@@ -613,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607508586265</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="github 登录 oauth2">
+      <created>1607572595755</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1607572595755</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,7 +657,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Springboot整合swagger2" />
     <MESSAGE value="12" />
     <MESSAGE value="rabbitmq" />
     <MESSAGE value="rabbitmq 订单管理" />
@@ -684,7 +681,8 @@
     <MESSAGE value="定时任务整改 v0.2" />
     <MESSAGE value="定时任务整改 v0.3&#10;增加资源监控" />
     <MESSAGE value="定时任务整改 v0.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="定时任务整改 v0.3" />
+    <MESSAGE value="github 登录 oauth2" />
+    <option name="LAST_COMMIT_MESSAGE" value="github 登录 oauth2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="114" key="#QuartzMain8001" timestamp="1607308911540">
@@ -747,10 +745,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="498" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607311190387" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607508591669">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1607997761301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607508591669" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607997761301" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607572604364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607572604364" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602825761337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -763,5 +765,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1607572140954" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607572556875">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607572556875" />
   </component>
 </project>

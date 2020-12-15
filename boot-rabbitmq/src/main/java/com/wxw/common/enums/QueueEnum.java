@@ -1,4 +1,4 @@
-package com.wxw.common;
+package com.wxw.common.enums;
 
 import lombok.Getter;
 
@@ -12,7 +12,7 @@ public enum QueueEnum {
      */
     QUEUE_ORDER_CANCEL("bs.order.direct", "bs.order.cancel", "bs.order.cancel"),
     /**
-     * 消息通知ttl队列
+     * 消息通知 ttl 队列
      */
     QUEUE_TTL_ORDER_CANCEL("bs.order.direct.ttl", "bs.order.cancel.ttl", "bs.order.cancel.ttl");
 
