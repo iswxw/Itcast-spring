@@ -1,6 +1,6 @@
 package com.wxw.common.config;
 
-import com.wxw.common.QueueEnum;
+import com.wxw.common.enums.QueueEnum;
 import org.springframework.amqp.core.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

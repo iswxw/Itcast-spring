@@ -25,10 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="github 登录 oauth2">
+    <list default="true" id="2a77d1d5-2ba3-421a-b2de-1fdb77630455" name="Default Changelist" comment="big-fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/enum/QueueEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/enums/QueueEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/mq/CancelOrderReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/mq/CancelOrderReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/config/RabbitMqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/config/RabbitMqConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/mq/CancelOrderSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-rabbitmq/src/main/java/com/wxw/common/mq/CancelOrderSender.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -420,7 +420,7 @@
       <workItem from="1607302084645" duration="8560000" />
       <workItem from="1607498207405" duration="4365000" />
       <workItem from="1607572081077" duration="547000" />
-      <workItem from="1607997693847" duration="988000" />
+      <workItem from="1607997693847" duration="4676000" />
     </task>
     <task id="LOCAL-00001" summary="添加示例">
       <created>1584160240398</created>
@@ -611,7 +611,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607572595755</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="big-fix">
+      <created>1607998706515</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1607998706515</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,7 +664,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="12" />
     <MESSAGE value="rabbitmq" />
     <MESSAGE value="rabbitmq 订单管理" />
     <MESSAGE value="（1）阿拉伯人民币转换为中文人民币&#10;（2）唯一ID生成工具&#10;（3）日期格式转换工具" />
@@ -682,7 +688,8 @@
     <MESSAGE value="定时任务整改 v0.3&#10;增加资源监控" />
     <MESSAGE value="定时任务整改 v0.3" />
     <MESSAGE value="github 登录 oauth2" />
-    <option name="LAST_COMMIT_MESSAGE" value="github 登录 oauth2" />
+    <MESSAGE value="big-fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="big-fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="114" key="#QuartzMain8001" timestamp="1607308911540">
@@ -749,10 +756,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607997761301" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607572604364">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607998710206">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607572604364" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607998710206" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602825761337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
